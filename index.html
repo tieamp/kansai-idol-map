@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>関西アイドル組数マップ</title>
+<style>
+:root{--bg:#fafaf7;--card:#fff;--text:#1d1d1f;--sub:#6b6b70;--line:#e6e6e0;--accent:#e0457b;--bar:#f3a6c1}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--card:#1e1e22;--text:#f2f2f4;--sub:#9a9aa2;--line:#2c2c32;--accent:#ff6fa0;--bar:#7a2f4b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.6}
+.wrap{max-width:820px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:8px 0 4px}
+.lead{color:var(--sub);font-size:13px;margin:0 0 16px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.stat b{display:block;font-size:20px;color:var(--accent)}
+.stat span{font-size:11px;color:var(--sub)}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--line);padding:4px;border-radius:12px;margin-bottom:14px}
+.tab{border:0;background:transparent;color:var(--sub);font-size:15px;font-weight:700;padding:10px 8px;border-radius:9px;cursor:pointer;font-family:inherit}
+.tab small{font-weight:500;font-size:12px;margin-left:4px}
+.tab.on{background:var(--card);color:var(--accent);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tools input,.tools select{flex:1 1 140px;padding:9px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);font-size:14px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:10px 16px;border-radius:10px;font-size:14px;font-weight:600}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.row1{display:flex;align-items:baseline;gap:8px}
+.rank{font-weight:700;color:var(--accent);min-width:28px}
+.name{font-weight:700;font-size:16px}
+.meta{font-size:12px;color:var(--sub);margin:2px 0 6px}
+.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--bar)}
+.nums{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;margin-top:6px}
+.nums a{color:var(--accent);text-decoration:none}
+.empty{text-align:center;color:var(--sub);padding:40px 0}
+footer{margin-top:24px;font-size:11px;color:var(--sub)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>関西アイドル組数マップ</h1>
+  <p class="lead">ファンの情報提供で作る、関西のアイドル一覧。Xの公式アカウントがあるグループ・ソロアイドルが対象です。</p>
+
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-type="group" role="tab">グループ部門<small id="nGroup">0</small></button>
+    <button class="tab" data-type="solo" role="tab">ソロ部門<small id="nSolo">0</small></button>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b id="sCount">0</b><span id="sCountLabel">登録グループ数</span></div>
+    <div class="stat"><b id="sX">0</b><span>Xフォロワー合計</span></div>
+    <div class="stat"><b id="sYT">0</b><span>YouTube登録者合計</span></div>
+  </div>
+
+  <div class="tools">
+    <input id="q" type="search" placeholder="名前・@アカウントで検索">
+    <select id="area"><option value="">全エリア</option></select>
+    <select id="sort">
+      <option value="score">影響力順（X+YouTube）</option>
+      <option value="x">Xフォロワー順</option>
+      <option value="yt">YouTube登録者順</option>
+      <option value="members" id="optMembers">メンバー数順</option>
+      <option value="year">活動歴が長い順</option>
+    </select>
+  </div>
+  <p style="margin:0 0 14px"><a class="btn" id="submit" href="#">＋ グループを教える / 情報を更新する</a></p>
+
+  <div id="list"></div>
+  <footer>
+    数値は情報提供時点のものです。「影響力」はXフォロワー数とYouTube登録者数の合計で算出しています。<br>
+    最終更新：<span id="updated">-</span>
+  </footer>
+</div>
+
+<script>
+// 公開URLが username.github.io/repo の場合は自動判定。違う場合はここに "ユーザー名/リポジトリ名" を入れる
+const REPO_OVERRIDE = "";
+
+const fmt = n => (n == null ? "-" : n.toLocaleString("ja-JP"));
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let groups = [];
+let currentType = "group"; // "group" | "solo"
+const typeOf = g => g.type === "solo" ? "solo" : "group";
+
+function repoPath(){
+  if (REPO_OVERRIDE) return REPO_OVERRIDE;
+  const m = location.hostname.match(/^(.+)\.github\.io$/);
+  const r = location.pathname.split("/")[1];
+  return m && r ? `${m[1]}/${r}` : "";
+}
+const repo = repoPath();
+document.getElementById("submit").href = repo
+  ? `https://github.com/${repo}/issues/new?template=add-group.yml`
+  : "#";
+
+const score = g => (g.xFollowers || 0) + (g.ytSubscribers || 0);
+const sorters = {
+  score: (a,b) => score(b) - score(a),
+  x: (a,b) => (b.xFollowers||0) - (a.xFollowers||0),
+  yt: (a,b) => (b.ytSubscribers||0) - (a.ytSubscribers||0),
+  members: (a,b) => (b.members||0) - (a.members||0),
+  year: (a,b) => (a.formedYear||9999) - (b.formedYear||9999)
+};
+
+function render(){
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const area = document.getElementById("area").value;
+  const sort = document.getElementById("sort").value;
+  const inType = groups.filter(g => typeOf(g) === currentType);
+  const solo = currentType === "solo";
+  document.getElementById("sCountLabel").textContent = solo ? "登録ソロ数" : "登録グループ数";
+  document.getElementById("sCount").textContent = fmt(inType.length);
+  document.getElementById("sX").textContent = fmt(inType.reduce((s,g)=>s+(g.xFollowers||0),0));
+  document.getElementById("sYT").textContent = fmt(inType.reduce((s,g)=>s+(g.ytSubscribers||0),0));
+  document.getElementById("optMembers").hidden = solo;
+  if (solo && sort === "members") { document.getElementById("sort").value = "score"; return render(); }
+  const list = inType
+    .filter(g => !area || g.area === area)
+    .filter(g => !q || g.name.toLowerCase().includes(q) || g.x.toLowerCase().includes(q))
+    .sort(sorters[sort]);
+  const max = Math.max(1, ...list.map(score));
+  const el = document.getElementById("list");
+  if (!list.length){
+    el.innerHTML = '<div class="empty">該当するグループがありません。<br>上のボタンから情報を教えてください！</div>';
+    return;
+  }
+  el.innerHTML = list.map((g,i) => `
+    <div class="item">
+      <div class="row1"><span class="rank">${i+1}</span><span class="name">${esc(g.name)}</span></div>
+      <div class="meta">${[g.area, !solo && g.members ? g.members + "人" : "", g.formedYear ? g.formedYear + (solo ? "年〜活動" : "年結成") : ""].filter(Boolean).map(esc).join(" ・ ")}</div>
+      <div class="bar"><i style="width:${Math.round(score(g)/max*100)}%"></i></div>
+      <div class="nums">
+        <span>X <a href="https://x.com/${esc(g.x)}" target="_blank" rel="noopener">@${esc(g.x)}</a> ${fmt(g.xFollowers)}</span>
+        ${g.youtube ? `<span>YouTube <a href="${esc(g.youtube)}" target="_blank" rel="noopener">チャンネル</a> ${fmt(g.ytSubscribers)}</span>` : ""}
+      </div>
+    </div>`).join("");
+}
+
+fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
+  groups = d.groups || [];
+  document.getElementById("updated").textContent = d.updatedAt || "-";
+  document.getElementById("nGroup").textContent = groups.filter(g => typeOf(g) === "group").length;
+  document.getElementById("nSolo").textContent = groups.filter(g => typeOf(g) === "solo").length;
+  const areas = [...new Set(groups.map(g => g.area).filter(Boolean))];
+  document.getElementById("area").innerHTML += areas.map(a => `<option>${esc(a)}</option>`).join("");
+  render();
+}).catch(() => { document.getElementById("list").innerHTML = '<div class="empty">データを読み込めませんでした</div>'; });
+
+["q","area","sort"].forEach(id => document.getElementById(id).addEventListener("input", render));
+document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
+  currentType = b.dataset.type;
+  document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t === b));
+  render();
+}));
+</script>
+</body>
+</html>
