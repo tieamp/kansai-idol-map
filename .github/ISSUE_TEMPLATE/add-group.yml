@@ -1,0 +1,71 @@
+name: グループ情報の提供
+description: 関西のアイドル（グループ／ソロ）を追加・更新するための情報を送る
+title: "[追加] "
+labels: ["add-group"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご協力ありがとうございます！Xに公式アカウントがあるグループ・ソロアイドルが対象です。
+        管理人が確認してから反映されます。
+  - type: dropdown
+    id: type
+    attributes:
+      label: 部門
+      options:
+        - グループ
+        - ソロ
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: グループ名 / ソロの活動名
+    validations:
+      required: true
+  - type: input
+    id: x
+    attributes:
+      label: Xアカウント（@は不要）
+      placeholder: example_idol
+    validations:
+      required: true
+  - type: input
+    id: youtube
+    attributes:
+      label: YouTubeチャンネルURL（あれば）
+      placeholder: https://www.youtube.com/@example
+  - type: dropdown
+    id: area
+    attributes:
+      label: 主な活動エリア
+      options:
+        - 大阪
+        - 兵庫
+        - 京都
+        - 滋賀
+        - 奈良
+        - 和歌山
+        - 関西（複数・全域）
+    validations:
+      required: true
+  - type: input
+    id: members
+    attributes:
+      label: メンバー数（人）※グループのみ
+      placeholder: "6"
+  - type: input
+    id: formedYear
+    attributes:
+      label: 結成年・活動開始年（西暦）
+      placeholder: "2020"
+  - type: input
+    id: xFollowers
+    attributes:
+      label: Xフォロワー数（確認した数字）
+      placeholder: "1234"
+  - type: input
+    id: ytSubscribers
+    attributes:
+      label: YouTube登録者数（確認した数字）
+      placeholder: "567"
