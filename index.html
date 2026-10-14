@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>関西アイドル組数マップ</title>
+<title>関西アイドルマップ</title>
 <style>
-:root{--bg:#fafaf7;--card:#fff;--text:#1d1d1f;--sub:#6b6b70;--line:#e6e6e0;--accent:#e0457b;--bar:#f3a6c1}
-@media (prefers-color-scheme:dark){:root{--bg:#141416;--card:#1e1e22;--text:#f2f2f4;--sub:#9a9aa2;--line:#2c2c32;--accent:#ff6fa0;--bar:#7a2f4b}}
+:root{--bg:#fff3fa;--card:#fff;--text:#2a2140;--sub:#6b5f88;--line:#2a2140;--accent:#ff3d8b;--bar:#ffb3d1;--pop1:#ffd93d;--pop2:#4dd4ff;--pop3:#a78bfa;--shadow:#2a2140}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1035;--card:#2a1d4a;--text:#fff;--sub:#c4b5fd;--line:#7c5cd6;--accent:#ff6fb5;--bar:#ff6fb5;--shadow:#0d0720}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.6}
+body{margin:0;background-color:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.6}
 .wrap{max-width:820px;margin:0 auto;padding:20px 16px 60px}
 h1{font-size:22px;margin:8px 0 4px}
 .lead{color:var(--sub);font-size:13px;margin:0 0 16px}
@@ -34,11 +34,31 @@ h1{font-size:22px;margin:8px 0 4px}
 .nums a{color:var(--accent);text-decoration:none}
 .empty{text-align:center;color:var(--sub);padding:40px 0}
 footer{margin-top:24px;font-size:11px;color:var(--sub)}
+h1{font-size:30px;font-weight:900;letter-spacing:.02em;margin:6px 0 6px;display:inline-block;background:linear-gradient(90deg,#ff3d8b,#a78bfa 55%,#22b8f0);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(2px 2px 0 var(--pop1))}
+body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80px,transparent 81px),radial-gradient(circle at 92% 6%,rgba(77,212,255,.45) 0 110px,transparent 111px),radial-gradient(circle at 85% 75%,rgba(167,139,250,.4) 0 130px,transparent 131px),radial-gradient(circle at 5% 85%,rgba(255,61,139,.25) 0 100px,transparent 101px),radial-gradient(rgba(255,61,139,.2) 2px,transparent 2.6px);background-size:auto,auto,auto,auto,22px 22px;background-attachment:fixed}
+.stat,.item,.tabs,.tools input,.tools select{border:2.5px solid var(--line);box-shadow:4px 4px 0 var(--shadow)}
+.stat,.item{border-radius:16px}
+.stat:nth-child(2) b{color:#1aa7e0}
+.stat:nth-child(3) b{color:#8b5cf6}
+.tabs{background:var(--pop1);border-radius:16px;padding:5px}
+.tab{color:#2a2140;border-radius:11px}
+.tab.on{background:var(--accent);color:#fff;box-shadow:none}
+.tools input,.tools select{border-radius:12px;box-shadow:3px 3px 0 var(--shadow)}
+.btn{border:2.5px solid var(--line);box-shadow:4px 4px 0 var(--shadow);border-radius:14px;transition:transform .08s}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--shadow)}
+.item{transition:transform .1s}
+.item:hover{transform:translate(-1px,-2px)}
+.rank{display:inline-grid;place-items:center;min-width:30px;height:30px;border-radius:50%;background:var(--pop1);color:#2a2140;border:2px solid var(--line);font-size:14px}
+.bar{height:10px;border-radius:6px;border:2px solid var(--line);background:var(--card)}
+.bar i{background:repeating-linear-gradient(45deg,var(--accent) 0 8px,var(--pop3) 8px 16px)}
+.area-h{margin:18px 2px 8px;font-weight:900;font-size:17px;display:flex;align-items:center;gap:8px}
+.area-h::before{content:"";width:14px;height:14px;border-radius:50%;background:var(--pop2);border:2px solid var(--line)}
+.area-h small{font-size:12px;font-weight:700;color:var(--sub)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>関西アイドル組数マップ</h1>
+  <h1>関西アイドルマップ</h1>
   <p class="lead">ファンの情報提供で作る、関西のアイドル一覧。Xの公式アカウントがあるグループ・ソロアイドルが対象です。</p>
 
   <div class="tabs" role="tablist">
@@ -61,6 +81,7 @@ footer{margin-top:24px;font-size:11px;color:var(--sub)}
       <option value="yt">YouTube登録者順</option>
       <option value="members" id="optMembers">メンバー数順</option>
       <option value="year">活動歴が長い順</option>
+      <option value="area">都道府県順</option>
     </select>
   </div>
   <p style="margin:0 0 14px"><a class="btn" id="submit" href="#">＋ グループを教える / 情報を更新する</a></p>
@@ -97,7 +118,10 @@ submitBtn.target = "_blank";
 submitBtn.rel = "noopener";
 
 const score = g => (g.xFollowers || 0) + (g.ytSubscribers || 0);
+const AREA_ORDER = ["大阪","兵庫","京都","滋賀","奈良","和歌山","関西（複数・全域）"];
+const areaIdx = g => { const i = AREA_ORDER.indexOf(g.area); return i < 0 ? 99 : i; };
 const sorters = {
+  area: (a,b) => areaIdx(a) - areaIdx(b) || score(b) - score(a),
   score: (a,b) => score(b) - score(a),
   x: (a,b) => (b.xFollowers||0) - (a.xFollowers||0),
   yt: (a,b) => (b.ytSubscribers||0) - (a.ytSubscribers||0),
@@ -127,16 +151,27 @@ function render(){
     el.innerHTML = '<div class="empty">該当するグループがありません。<br>上のボタンから情報を教えてください！</div>';
     return;
   }
-  el.innerHTML = list.map((g,i) => `
+  let prevArea = null, n = 0;
+  el.innerHTML = list.map((g,i) => {
+    const byArea = sort === "area";
+    let head = "";
+    if (byArea && g.area !== prevArea) {
+      n = 0;
+      head = `<div class="area-h">${esc(g.area || "その他")}<small>${list.filter(x => x.area === g.area).length}組</small></div>`;
+    }
+    prevArea = g.area; n++;
+    const rank = byArea ? n : i + 1;
+    return head + `
     <div class="item">
-      <div class="row1"><span class="rank">${i+1}</span><span class="name">${esc(g.name)}</span></div>
+      <div class="row1"><span class="rank">${rank}</span><span class="name">${esc(g.name)}</span></div>
       <div class="meta">${[g.area, !solo && g.members ? g.members + "人" : "", g.formedYear ? g.formedYear + (solo ? "年〜活動" : "年結成") : ""].filter(Boolean).map(esc).join(" ・ ")}</div>
       <div class="bar"><i style="width:${Math.round(score(g)/max*100)}%"></i></div>
       <div class="nums">
         <span>X <a href="https://x.com/${esc(g.x)}" target="_blank" rel="noopener">@${esc(g.x)}</a> ${fmt(g.xFollowers)}</span>
         ${g.youtube ? `<span>YouTube <a href="${esc(g.youtube)}" target="_blank" rel="noopener">チャンネル</a> ${fmt(g.ytSubscribers)}</span>` : ""}
       </div>
-    </div>`).join("");
+    </div>`;
+  }).join("");
 }
 
 fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
@@ -144,7 +179,7 @@ fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
   document.getElementById("updated").textContent = d.updatedAt || "-";
   document.getElementById("nGroup").textContent = groups.filter(g => typeOf(g) === "group").length;
   document.getElementById("nSolo").textContent = groups.filter(g => typeOf(g) === "solo").length;
-  const areas = [...new Set(groups.map(g => g.area).filter(Boolean))];
+  const areas = [...new Set(groups.map(g => g.area).filter(Boolean))].sort((a,b) => areaIdx({area:a}) - areaIdx({area:b}));
   document.getElementById("area").innerHTML += areas.map(a => `<option>${esc(a)}</option>`).join("");
   render();
 }).catch(() => { document.getElementById("list").innerHTML = '<div class="empty">データを読み込めませんでした</div>'; });
