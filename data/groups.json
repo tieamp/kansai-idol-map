@@ -1,4 +1,16 @@
 {
-  "updatedAt": "",
-  "groups": []
+  "updatedAt": "2026-10-14",
+  "groups": [
+    {
+      "type": "group",
+      "name": "グットクルー",
+      "x": "gootcrew_",
+      "youtube": "https://www.youtube.com/channel/UCYHpUaMgDBHF--nELxdEmWA",
+      "area": "兵庫",
+      "members": 6,
+      "formedYear": 2020,
+      "xFollowers": 2517,
+      "ytSubscribers": 8500
+    }
+  ]
 }
