@@ -75,6 +75,8 @@ footer{margin-top:24px;font-size:11px;color:var(--sub)}
 <script>
 // 公開URLが username.github.io/repo の場合は自動判定。違う場合はここに "ユーザー名/リポジトリ名" を入れる
 const REPO_OVERRIDE = "";
+// 情報提供フォーム（Googleフォーム）
+const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfmLY3ZBN_y5_0TgwZNOSQov57hGuez44ceaysphiXo3yVglA/viewform";
 
 const fmt = n => (n == null ? "-" : n.toLocaleString("ja-JP"));
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -89,9 +91,10 @@ function repoPath(){
   return m && r ? `${m[1]}/${r}` : "";
 }
 const repo = repoPath();
-document.getElementById("submit").href = repo
-  ? `https://github.com/${repo}/issues/new?template=add-group.yml`
-  : "#";
+const submitBtn = document.getElementById("submit");
+submitBtn.href = FORM_URL;
+submitBtn.target = "_blank";
+submitBtn.rel = "noopener";
 
 const score = g => (g.xFollowers || 0) + (g.ytSubscribers || 0);
 const sorters = {
