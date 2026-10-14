@@ -1,0 +1,32 @@
+name: 承認されたグループを反映
+
+# 管理人が Issue に「approved」ラベルを付けると、data/groups.json に反映されます
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  apply:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'add-group')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: groups.json を更新
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python scripts/apply_issue.py
+      - name: コミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/groups.json
+          git commit -m "グループ追加: #${{ github.event.issue.number }}" || echo "変更なし"
+          git push
+      - name: Issue をクローズ
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --comment "反映しました。ご協力ありがとうございます！" --repo ${{ github.repository }}
