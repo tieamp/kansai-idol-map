@@ -83,6 +83,176 @@
       "name": "meluQ",
       "x": "meluQ_idol",
       "youtube": "https://www.youtube.com/@meluq",
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": null,
+      "xFollowers": 3618,
+      "ytSubscribers": 1150
+    },
+    {
+      "type": "group",
+      "name": "anemoreel",
+      "x": "anemoreel",
+      "youtube": "https://www.youtube.com/@anemoreel",
+      "area": "大阪",
+      "members": 7,
+      "formedYear": 2025,
+      "xFollowers": 1884,
+      "ytSubscribers": 284
+    },
+    {
+      "type": "group",
+      "name": "スイモアマイモン！",
+      "x": "suiama_idol",
+      "youtube": "https://www.youtube.com/@suiama_idol",
+      "area": "兵庫",
+      "members": 3,
+      "formedYear": 2026,
+      "xFollowers": 1545,
+      "ytSubscribers": 173
+    },
+    {
+      "type": "group",
+      "name": "Merry Mellow",
+      "x": "MerryMellow_O",
+      "youtube": "https://www.youtube.com/@MerryMellow_O",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2025,
+      "xFollowers": 2073,
+      "ytSubscribers": 689
+    },
+    {
+      "type": "group",
+      "name": "ハピネスクラッカー！",
+      "x": "hpcr_idol",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2025,
+      "xFollowers": 2304,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "Fille mimi",
+      "x": "Fillemimi_staff",
+      "youtube": "https://www.youtube.com/@Fillemimi_official",
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 2245,
+      "ytSubscribers": 333
+    },
+    {
+      "type": "group",
+      "name": "#PANnana",
+      "x": "pannana_staff",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2021,
+      "xFollowers": 4493,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "POLARiS",
+      "x": "POLARiS_Off",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2025,
+      "xFollowers": 1281,
+      "ytSubscribers": null
+    }
+  ]
+}
+{
+  "updatedAt": "2026-10-16",
+  "groups": [
+    {
+      "type": "group",
+      "name": "グットクルー",
+      "x": "gootcrew_",
+      "youtube": "https://www.youtube.com/channel/UCYHpUaMgDBHF--nELxdEmWA",
+      "area": "兵庫",
+      "members": 6,
+      "formedYear": 2020,
+      "xFollowers": 2517,
+      "ytSubscribers": 8500
+    },
+    {
+      "type": "group",
+      "name": "WT☆Egret",
+      "x": "WT_Egret",
+      "youtube": "https://www.youtube.com/@WT_Egret",
+      "area": "兵庫",
+      "members": null,
+      "formedYear": 2016,
+      "xFollowers": 5835,
+      "ytSubscribers": 2560
+    },
+    {
+      "type": "group",
+      "name": "脳内パステル",
+      "x": "Nopas_Official",
+      "youtube": "https://www.youtube.com/@nounaipastel",
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2021,
+      "xFollowers": 7826,
+      "ytSubscribers": 3600
+    },
+    {
+      "type": "group",
+      "name": "Qu♡Aly",
+      "x": "qualy_info",
+      "youtube": "https://www.youtube.com/@qualy_official",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 4026,
+      "ytSubscribers": 967
+    },
+    {
+      "type": "group",
+      "name": "ЯiM:MiR",
+      "x": "RiMMiR_official",
+      "youtube": "https://www.youtube.com/@immir8492",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2020,
+      "xFollowers": 3672,
+      "ytSubscribers": 2000
+    },
+    {
+      "type": "group",
+      "name": "サクヤコノハナ",
+      "x": "SKKH_official",
+      "youtube": "https://www.youtube.com/@%E3%82%B5%E3%82%AF%E3%83%8F%E3%83%8A%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E3%82%B5%E3%82%AF%E3%83%A4%E3%82%B3%E3%83%8E%E3%83%8F%E3%83%8A%E5%85%AC%E5%BC%8F",
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2017,
+      "xFollowers": 12000,
+      "ytSubscribers": 4330
+    },
+    {
+      "type": "group",
+      "name": "W.ダブルヴィー",
+      "x": "w__official",
+      "youtube": "https://www.youtube.com/@W.OfficialChannel",
+      "area": "大阪",
+      "members": 6,
+      "formedYear": null,
+      "xFollowers": 10000,
+      "ytSubscribers": 5920
+    },
+    {
+      "type": "group",
+      "name": "meluQ",
+      "x": "meluQ_idol",
+      "youtube": "https://www.youtube.com/@meluq",
       "area": null,
       "members": null,
       "formedYear": null,
