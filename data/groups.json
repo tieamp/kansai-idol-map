@@ -484,6 +484,39 @@
       "formedYear": 2018,
       "xFollowers": 2106,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "大阪24区ガールズ",
+      "x": "osaka24girls",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2018,
+      "xFollowers": 4978,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "NEO BREAK",
+      "x": "NEOBREAK_info",
+      "youtube": null,
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2017,
+      "xFollowers": 3866,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "AQ",
+      "x": "AQ_inf",
+      "youtube": null,
+      "area": "京都",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 3099,
+      "ytSubscribers": null
     }
   ]
 }
