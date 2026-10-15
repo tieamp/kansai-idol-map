@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15",
+  "updatedAt": "2026-10-16",
   "groups": [
     {
       "type": "group",
@@ -77,6 +77,127 @@
       "formedYear": null,
       "xFollowers": 10000,
       "ytSubscribers": 5920
+    },
+    {
+      "type": "group",
+      "name": "meluQ",
+      "x": "meluQ_idol",
+      "youtube": "https://www.youtube.com/@meluq",
+      "area": null,
+      "members": null,
+      "formedYear": null,
+      "xFollowers": 3618,
+      "ytSubscribers": 1150
+    },
+    {
+      "type": "group",
+      "name": "スキトオルアオ",
+      "x": "sukitoruao",
+      "youtube": "https://www.youtube.com/@%E3%82%B9%E3%82%AD%E3%83%88%E3%82%AA%E3%83%AB%E3%82%A2%E3%82%AA",
+      "area": null,
+      "members": 6,
+      "formedYear": 2025,
+      "xFollowers": 1992,
+      "ytSubscribers": 530
+    },
+    {
+      "type": "group",
+      "name": "このアイドルはフィクションです。",
+      "x": "idol_fiction",
+      "youtube": "https://www.youtube.com/@idol_fiction.official",
+      "area": null,
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 2995,
+      "ytSubscribers": 23400
+    },
+    {
+      "type": "group",
+      "name": "anemoreel",
+      "x": "anemoreel",
+      "youtube": "https://www.youtube.com/@anemoreel",
+      "area": "大阪",
+      "members": 7,
+      "formedYear": 2025,
+      "xFollowers": 1884,
+      "ytSubscribers": 284
+    },
+    {
+      "type": "group",
+      "name": "スイモアマイモン！",
+      "x": "suiama_idol",
+      "youtube": "https://www.youtube.com/@suiama_idol",
+      "area": "兵庫",
+      "members": 3,
+      "formedYear": 2026,
+      "xFollowers": 1545,
+      "ytSubscribers": 173
+    },
+    {
+      "type": "group",
+      "name": "Merry Mellow",
+      "x": "MerryMellow_O",
+      "youtube": "https://www.youtube.com/@MerryMellow_O",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2025,
+      "xFollowers": 2073,
+      "ytSubscribers": 689
+    },
+    {
+      "type": "group",
+      "name": "ハピネスクラッカー！",
+      "x": "hpcr_idol",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2025,
+      "xFollowers": 2304,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "Fille mimi",
+      "x": "Fillemimi_staff",
+      "youtube": "https://www.youtube.com/@Fillemimi_official",
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 2245,
+      "ytSubscribers": 333
+    },
+    {
+      "type": "group",
+      "name": "#PANnana",
+      "x": "pannana_staff",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2021,
+      "xFollowers": 4493,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "LAST PiECE",
+      "x": "LASTPiECE__info",
+      "youtube": null,
+      "area": null,
+      "members": null,
+      "formedYear": null,
+      "xFollowers": 1303,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "POLARiS",
+      "x": "POLARiS_Off",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2025,
+      "xFollowers": 1281,
+      "ytSubscribers": null
     }
   ]
 }
