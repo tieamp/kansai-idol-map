@@ -159,11 +159,121 @@
       "type": "group",
       "name": "POLARiS",
       "x": "POLARiS_Off",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@polaris_idol",
       "area": "大阪",
       "members": 4,
       "formedYear": 2025,
       "xFollowers": 1281,
+      "ytSubscribers": 217
+    },
+    {
+      "type": "group",
+      "name": "cleomery",
+      "x": "cleomery_info",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 1271,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "感情線は時をこえて",
+      "x": "kanjosen_info",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2026,
+      "xFollowers": 1296,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "リリシック学園",
+      "x": "lilysicgakuen",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2011,
+      "xFollowers": 4968,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "ChanceMovement",
+      "x": "_Chance_M_",
+      "youtube": null,
+      "area": "滋賀",
+      "members": null,
+      "formedYear": 2021,
+      "xFollowers": 7237,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "ミケネコガールズ",
+      "x": "mikeneko_girls",
+      "youtube": null,
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2019,
+      "xFollowers": 1775,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "リボンのないぷれぜんと",
+      "x": "RiboNai_idol",
+      "youtube": null,
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2023,
+      "xFollowers": 1786,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "キューハチパーセント！",
+      "x": "98per_official",
+      "youtube": null,
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2026,
+      "xFollowers": 1487,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "わんだふる×ぱにっく",
+      "x": "wonderful_panic",
+      "youtube": null,
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2026,
+      "xFollowers": 525,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "ParaMilia",
+      "x": "ParaMilia",
+      "youtube": null,
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 1660,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "CLANCROWN",
+      "x": "clancrown_",
+      "youtube": null,
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2025,
+      "xFollowers": 1561,
       "ytSubscribers": null
     }
   ]
