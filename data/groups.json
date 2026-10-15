@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-15",
   "groups": [
     {
       "type": "group",
@@ -11,6 +11,72 @@
       "formedYear": 2020,
       "xFollowers": 2517,
       "ytSubscribers": 8500
+    },
+    {
+      "type": "group",
+      "name": "WT☆Egret",
+      "x": "WT_Egret",
+      "youtube": "https://www.youtube.com/@WT_Egret",
+      "area": "兵庫",
+      "members": null,
+      "formedYear": 2016,
+      "xFollowers": 5835,
+      "ytSubscribers": 2560
+    },
+    {
+      "type": "group",
+      "name": "脳内パステル",
+      "x": "Nopas_Official",
+      "youtube": "https://www.youtube.com/@nounaipastel",
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2021,
+      "xFollowers": 7826,
+      "ytSubscribers": 3600
+    },
+    {
+      "type": "group",
+      "name": "Qu♡Aly",
+      "x": "qualy_info",
+      "youtube": "https://www.youtube.com/@qualy_official",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 4026,
+      "ytSubscribers": 967
+    },
+    {
+      "type": "group",
+      "name": "ЯiM:MiR",
+      "x": "RiMMiR_official",
+      "youtube": "https://www.youtube.com/@immir8492",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2020,
+      "xFollowers": 3672,
+      "ytSubscribers": 2000
+    },
+    {
+      "type": "group",
+      "name": "サクヤコノハナ",
+      "x": "SKKH_official",
+      "youtube": "https://www.youtube.com/@%E3%82%B5%E3%82%AF%E3%83%8F%E3%83%8A%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E3%82%B5%E3%82%AF%E3%83%A4%E3%82%B3%E3%83%8E%E3%83%8F%E3%83%8A%E5%85%AC%E5%BC%8F",
+      "area": "関西（複数・全域）",
+      "members": null,
+      "formedYear": 2017,
+      "xFollowers": 12000,
+      "ytSubscribers": 4330
+    },
+    {
+      "type": "group",
+      "name": "W.ダブルヴィー",
+      "x": "w__official",
+      "youtube": "https://www.youtube.com/@W.OfficialChannel",
+      "area": null,
+      "members": 6,
+      "formedYear": null,
+      "xFollowers": 10000,
+      "ytSubscribers": 5920
     }
   ]
 }
