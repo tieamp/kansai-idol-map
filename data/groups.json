@@ -627,6 +627,39 @@
       "formedYear": 2024,
       "xFollowers": 2390,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "COzMICぱれーど",
+      "x": "COzMIC_parade",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 2640,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "#BEMYLOVE",
+      "x": "bemylove_japan",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2021,
+      "xFollowers": 2466,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "ボクセカ",
+      "x": "bksk_official",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2022,
+      "xFollowers": 2882,
+      "ytSubscribers": null
     }
   ]
 }
