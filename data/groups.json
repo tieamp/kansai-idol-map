@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-17",
   "groups": [
     {
       "type": "group",
@@ -528,6 +528,116 @@
       "formedYear": 2020,
       "xFollowers": 5893,
       "ytSubscribers": 1620
+    },
+    {
+      "type": "group",
+      "name": "カラフルスクリーム",
+      "x": "colorful_scream",
+      "youtube": null,
+      "area": "大阪",
+      "members": 8,
+      "formedYear": 2017,
+      "xFollowers": 11000,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "KRD8",
+      "x": "KRD_08",
+      "youtube": null,
+      "area": "兵庫",
+      "members": 8,
+      "formedYear": 2014,
+      "xFollowers": 10000,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "KOBerrieS♪",
+      "x": "KOB_S2014",
+      "youtube": null,
+      "area": "兵庫",
+      "members": null,
+      "formedYear": 2012,
+      "xFollowers": 5914,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "宇宙∞プラネクシア",
+      "x": "space_planexia",
+      "youtube": null,
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2025,
+      "xFollowers": 2460,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "tune time capsule",
+      "x": "tunetimecapsule",
+      "youtube": null,
+      "area": "大阪",
+      "members": 7,
+      "formedYear": 2026,
+      "xFollowers": 1831,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "COLOR of COLOR",
+      "x": "CoC___info",
+      "youtube": null,
+      "area": "大阪",
+      "members": 8,
+      "formedYear": 2025,
+      "xFollowers": 2980,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "あおぞらをキミに",
+      "x": "aozorawokimini",
+      "youtube": null,
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2022,
+      "xFollowers": 3387,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "link start",
+      "x": "link___start",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2022,
+      "xFollowers": 3153,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "イロハサクラ",
+      "x": "irohaskr",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2018,
+      "xFollowers": 3784,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "AI♡RARA",
+      "x": "AIRARA_official",
+      "youtube": null,
+      "area": "大阪",
+      "members": 2,
+      "formedYear": 2024,
+      "xFollowers": 2390,
+      "ytSubscribers": null
     }
   ]
 }
