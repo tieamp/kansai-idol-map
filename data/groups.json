@@ -853,10 +853,21 @@
       "name": "白黒アリス",
       "x": "_official_Alice",
       "youtube": "https://www.youtube.com/channel/UCyKiFvQw_5Apze5Ji9vf3nA",
-      "area": "大阪",
+      "area": "京都",
       "members": null,
       "formedYear": 2025,
       "xFollowers": 5508,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "Quubi",
+      "x": "quubi_o",
+      "youtube": null,
+      "area": "大阪",
+      "members": 3,
+      "formedYear": 2021,
+      "xFollowers": 7895,
       "ytSubscribers": null
     }
   ]
