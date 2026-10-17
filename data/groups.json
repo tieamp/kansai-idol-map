@@ -913,6 +913,28 @@
       "formedYear": 2025,
       "xFollowers": 2152,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "LOTUS MARRY",
+      "x": "LOTUSMARRY",
+      "youtube": "https://www.youtube.com/@LOTUSMARRY",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2025,
+      "xFollowers": 1236,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "ネテルダイヤ",
+      "x": "ndia_official",
+      "youtube": "https://www.youtube.com/channel/UCLOj7338LcZC7GtDmLdZGwg",
+      "area": "大阪",
+      "members": 7,
+      "formedYear": 2020,
+      "xFollowers": 2982,
+      "ytSubscribers": null
     }
   ]
 }
