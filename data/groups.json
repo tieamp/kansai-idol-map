@@ -902,6 +902,17 @@
       "formedYear": 2025,
       "xFollowers": 1515,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "ELEVYZ",
+      "x": "ELEVYZ_jp",
+      "youtube": null,
+      "area": "大阪",
+      "members": 5,
+      "formedYear": 2025,
+      "xFollowers": 2152,
+      "ytSubscribers": null
     }
   ]
 }
