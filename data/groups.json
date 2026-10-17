@@ -770,6 +770,39 @@
       "formedYear": 2024,
       "xFollowers": 2334,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "抜けてるくらいがちょうどいい",
+      "x": "nukegachi_info",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2026,
+      "xFollowers": 2156,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "うぃるめり！",
+      "x": "willmerry_idol",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 2123,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "HIBANA",
+      "x": "HBN_187",
+      "youtube": null,
+      "area": "大阪",
+      "members": 5,
+      "formedYear": 2024,
+      "xFollowers": 5943,
+      "ytSubscribers": null
     }
   ]
 }
