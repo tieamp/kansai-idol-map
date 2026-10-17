@@ -157,6 +157,11 @@ function render(){
   document.getElementById("sYT").textContent = fmt(inType.reduce((s,g)=>s+(g.ytSubscribers||0),0));
   document.getElementById("optMembers").hidden = solo;
   if (solo && sort === "members") { document.getElementById("sort").value = "score"; return render(); }
+  const sel = document.getElementById("area");
+  const areaList = [...new Set(inType.map(g => g.area).filter(Boolean))].sort((a,b) => areaIdx({area:a}) - areaIdx({area:b}));
+  const cnt = a => inType.filter(g => g.area === a).length;
+  sel.innerHTML = `<option value="">全エリア（${inType.length}組）</option>` + areaList.map(a => `<option value="${esc(a)}"${a === area ? " selected" : ""}>${esc(a)}（${cnt(a)}組）</option>`).join("");
+  if (area && !areaList.includes(area)) sel.value = "";
   const list = inType
     .filter(g => !area || g.area === area)
     .filter(g => !q || g.name.toLowerCase().includes(q) || g.x.toLowerCase().includes(q))
@@ -168,10 +173,12 @@ function render(){
     return;
   }
   let prevArea = null, n = 0;
-  el.innerHTML = list.map((g,i) => {
+  const filtered = area || q;
+  const bar0 = filtered ? `<div class="area-h" style="margin-top:6px">${esc(area || "検索結果")}<small>${list.length}組${area && q ? "（「" + esc(q) + "」で絞り込み）" : ""}</small></div>` : "";
+  el.innerHTML = bar0 + list.map((g,i) => {
     const byArea = sort === "area";
     let head = "";
-    if (byArea && g.area !== prevArea) {
+    if (byArea && !filtered && g.area !== prevArea) {
       n = 0;
       head = `<div class="area-h">${esc(g.area || "その他")}<small>${list.filter(x => x.area === g.area).length}組</small></div>`;
     }
@@ -211,7 +218,6 @@ fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
   document.getElementById("nGroup").textContent = groups.filter(g => typeOf(g) === "group").length;
   document.getElementById("nSolo").textContent = groups.filter(g => typeOf(g) === "solo").length;
   const areas = [...new Set(groups.map(g => g.area).filter(Boolean))].sort((a,b) => areaIdx({area:a}) - areaIdx({area:b}));
-  document.getElementById("area").innerHTML += areas.map(a => `<option>${esc(a)}</option>`).join("");
   render();
 }).catch(() => { document.getElementById("list").innerHTML = '<div class="empty">データを読み込めませんでした</div>'; });
 
