@@ -54,6 +54,21 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
 .area-h{margin:18px 2px 8px;font-weight:900;font-size:17px;display:flex;align-items:center;gap:8px}
 .area-h::before{content:"";width:14px;height:14px;border-radius:50%;background:var(--pop2);border:2px solid var(--line)}
 .area-h small{font-size:12px;font-weight:700;color:var(--sub)}
+.item.has{cursor:pointer}
+.tg{margin-left:auto;font-size:11px;color:var(--sub);white-space:nowrap}
+.item.has .tg::after{content:" ▼"}
+.item.open .tg::after{content:" ▲"}
+.detail{display:none;margin-top:10px;padding-top:10px;border-top:2px dashed var(--line)}
+.item.open .detail{display:block}
+.detail h3{margin:0 0 6px;font-size:13px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;font-weight:700;padding:4px 10px;border:2px solid var(--line);border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-family:inherit;cursor:default}
+.chip.go{cursor:pointer;background:var(--pop1);color:#2a2140}
+.chip small{font-weight:500;color:var(--sub);margin-left:4px}
+.chip.go small{color:#2a2140}
+.note{font-size:11px;color:var(--sub);margin:6px 0 0}
+.flash{animation:fl 1.2s}
+@keyframes fl{0%,60%{box-shadow:0 0 0 5px var(--pop2),4px 4px 0 var(--shadow)}100%{box-shadow:4px 4px 0 var(--shadow)}}
 </style>
 </head>
 <body>
@@ -103,6 +118,7 @@ const fmt = n => (n == null ? "-" : n.toLocaleString("ja-JP"));
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 let groups = [];
 let currentType = "group"; // "group" | "solo"
+const openSet = new Set();
 const typeOf = g => g.type === "solo" ? "solo" : "group";
 
 function repoPath(){
@@ -162,16 +178,31 @@ function render(){
     prevArea = g.area; n++;
     const rank = byArea ? n : i + 1;
     return head + `
-    <div class="item">
-      <div class="row1"><span class="rank">${rank}</span><span class="name">${esc(g.name)}</span></div>
+    <div class="item${g.partners && g.partners.length ? " has" : ""}${openSet.has(g.x) ? " open" : ""}" data-x="${esc(g.x)}">
+      <div class="row1"><span class="rank">${rank}</span><span class="name">${esc(g.name)}</span>${g.partners && g.partners.length ? '<span class="tg">よく対バン</span>' : ""}</div>
       <div class="meta">${[g.area, !solo && g.members ? g.members + "人" : "", g.formedYear ? g.formedYear + (solo ? "年〜活動" : "年結成") : ""].filter(Boolean).map(esc).join(" ・ ")}</div>
       <div class="bar"><i style="width:${Math.round(score(g)/max*100)}%"></i></div>
       <div class="nums">
         <span>X <a href="https://x.com/${esc(g.x)}" target="_blank" rel="noopener">@${esc(g.x)}</a> ${fmt(g.xFollowers)}</span>
         ${g.youtube ? `<span>YouTube <a href="${esc(g.youtube)}" target="_blank" rel="noopener">チャンネル</a> ${fmt(g.ytSubscribers)}</span>` : ""}
       </div>
+      ${partnersHtml(g)}
     </div>`;
   }).join("");
+}
+
+function partnersHtml(g){
+  if (!g.partners || !g.partners.length) return "";
+  const byX = new Map(groups.map(h => [h.x.toLowerCase(), h]));
+  const chips = [...g.partners].sort((a,b) => (b.count||0) - (a.count||0)).map(p => {
+    const h = p.x && byX.get(p.x.toLowerCase());
+    const cnt = p.count ? `<small>${p.count}回</small>` : "";
+    return h
+      ? `<button type="button" class="chip go" data-go="${esc(h.x)}">${esc(h.name)}${cnt}</button>`
+      : `<span class="chip">${esc(p.name)}${cnt}</span>`;
+  }).join("");
+  return `<div class="detail"><h3>よく対バンするグループ</h3><div class="chips">${chips}</div>
+    <p class="note">Xで告知されたフライヤー等から集計（${esc(g.partnersAsOf || "調査時点")}）。黄色は掲載中のグループ（タップで移動）。</p></div>`;
 }
 
 fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
@@ -184,6 +215,26 @@ fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
   render();
 }).catch(() => { document.getElementById("list").innerHTML = '<div class="empty">データを読み込めませんでした</div>'; });
 
+document.getElementById("list").addEventListener("click", e => {
+  const go = e.target.closest("[data-go]");
+  if (go){
+    const x = go.dataset.go, h = groups.find(g => g.x === x);
+    if (!h) return;
+    currentType = typeOf(h);
+    document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t.dataset.type === currentType));
+    document.getElementById("q").value = ""; document.getElementById("area").value = "";
+    openSet.add(x); render();
+    const t = document.querySelector(`.item[data-x="${CSS.escape(x)}"]`);
+    if (t){ t.scrollIntoView({behavior:"smooth",block:"center"}); t.classList.add("flash"); }
+    return;
+  }
+  if (e.target.closest("a")) return;
+  const it = e.target.closest(".item.has");
+  if (!it) return;
+  const x = it.dataset.x;
+  openSet.has(x) ? openSet.delete(x) : openSet.add(x);
+  it.classList.toggle("open");
+});
 ["q","area","sort"].forEach(id => document.getElementById(id).addEventListener("input", render));
 document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
   currentType = b.dataset.type;
