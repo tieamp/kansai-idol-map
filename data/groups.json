@@ -792,6 +792,28 @@
       "formedYear": 2018,
       "xFollowers": 8472,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "Axelight",
+      "x": "axlt_official",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2022,
+      "xFollowers": 5135,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "ゼロキョリハーツ",
+      "x": "ZKH_official",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 2499,
+      "ytSubscribers": null
     }
   ]
 }
