@@ -869,6 +869,39 @@
       "formedYear": 2021,
       "xFollowers": 7895,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "MeluCharm",
+      "x": "MeluCharm_staff",
+      "youtube": null,
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2026,
+      "xFollowers": 1031,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "リトルシェノン",
+      "x": "little_chainon",
+      "youtube": null,
+      "area": "大阪",
+      "members": 3,
+      "formedYear": 2023,
+      "xFollowers": 820,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "プラチナリボン",
+      "x": "platinumribbon",
+      "youtube": null,
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2025,
+      "xFollowers": 1515,
+      "ytSubscribers": null
     }
   ]
 }
