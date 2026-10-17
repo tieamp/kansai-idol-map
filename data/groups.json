@@ -781,6 +781,17 @@
       "formedYear": 2024,
       "xFollowers": 5943,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "Kolokol",
+      "x": "klkl_official",
+      "youtube": "https://www.youtube.com/c/KolokolOfficial",
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2018,
+      "xFollowers": 8472,
+      "ytSubscribers": null
     }
   ]
 }
