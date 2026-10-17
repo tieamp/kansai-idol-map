@@ -814,6 +814,50 @@
       "formedYear": 2024,
       "xFollowers": 2499,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "MAGMAZ",
+      "x": "MAGMAZ_jp",
+      "youtube": null,
+      "area": "大阪",
+      "members": 5,
+      "formedYear": 2022,
+      "xFollowers": 6172,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "AZ-ON",
+      "x": "AZON_osaka",
+      "youtube": "https://www.youtube.com/channel/UCqGDznZQHk9TGCRwMDsefbA",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2022,
+      "xFollowers": 7239,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "鳴ル神",
+      "x": "NARUKAMI_JPN_",
+      "youtube": "https://www.youtube.com/channel/UC8AXOTJKXcQ3tu11fcOzh7g",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 4270,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "白黒アリス",
+      "x": "_official_Alice",
+      "youtube": "https://www.youtube.com/channel/UCyKiFvQw_5Apze5Ji9vf3nA",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2025,
+      "xFollowers": 5508,
+      "ytSubscribers": null
     }
   ]
 }
