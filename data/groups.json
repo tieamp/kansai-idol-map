@@ -1056,6 +1056,17 @@
       "formedYear": 2025,
       "xFollowers": 670,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "SPRISE",
+      "x": "SPRISE_OFFICIAL",
+      "youtube": null,
+      "area": "大阪",
+      "members": 5,
+      "formedYear": 2018,
+      "xFollowers": 10000,
+      "ytSubscribers": null
     }
   ]
 }
