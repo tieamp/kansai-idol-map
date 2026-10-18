@@ -1067,6 +1067,17 @@
       "formedYear": 2018,
       "xFollowers": 10000,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "Arch Angel",
+      "x": "ArchAngel078078",
+      "youtube": "https://www.youtube.com/channel/UChKZrpZyUEIppBsxEV2Bx2w",
+      "area": "兵庫",
+      "members": 3,
+      "formedYear": 2025,
+      "xFollowers": 836,
+      "ytSubscribers": null
     }
   ]
 }
