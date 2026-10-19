@@ -198,7 +198,7 @@ function render(){
         <span>X <a href="https://x.com/${esc(g.x)}" target="_blank" rel="noopener">@${esc(g.x)}</a> ${fmt(g.xFollowers)}</span>
         ${g.youtube ? `<span>YouTube <a href="${esc(g.youtube)}" target="_blank" rel="noopener">チャンネル</a> ${fmt(g.ytSubscribers)}</span>` : ""}
       </div>
-      ${linksHtml(g)}${achHtml(g)}
+      ${linksHtml(g)}${topicHtml(g)}
       ${partnersHtml(g)}
     </div>`;
   }).join("");
@@ -210,9 +210,9 @@ function linksHtml(g){
   if (g.website) a.push(`<a href="${esc(g.website)}" target="_blank" rel="noopener">公式HP</a>`);
   return a.length ? `<div class="links">${a.join("")}</div>` : "";
 }
-function achHtml(g){
-  const l = (g.achievements || []).filter(Boolean);
-  return l.length ? `<div class="ach"><b>主な実績</b><ul>${l.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>` : "";
+function topicHtml(g){
+  const l = (g.topics || []).filter(Boolean);
+  return l.length ? `<div class="ach"><b>トピック</b><ul>${l.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>` : "";
 }
 function partnersHtml(g){
   if (!g.partners || !g.partners.length) return "";
