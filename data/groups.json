@@ -1520,7 +1520,7 @@
     {
       "type": "group",
       "name": "カミサマパレード",
-      "x": "https://x.com/kamipare_info",
+      "x": "kamipare_info",
       "youtube": "https://www.youtube.com/@kamipare",
       "area": "大阪",
       "members": 6,
@@ -1538,7 +1538,7 @@
     {
       "type": "group",
       "name": "sync-sens",
-      "x": "https://x.com/sync_sens_idol",
+      "x": "sync_sens_idol",
       "area": "大阪",
       "members": 3,
       "formedYear": 2024,
@@ -1546,7 +1546,9 @@
       "schedule": "https://timetr.ee/p/sync_sens",
       "topics": [
         "「刺激的でセンセーショナルな私たちの世界へ」"
-      ]
+      ],
+      "youtube": null,
+      "ytSubscribers": null
     }
   ]
 }
