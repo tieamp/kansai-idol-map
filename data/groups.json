@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "groups": [
     {
       "type": "group",
@@ -10,7 +10,7 @@
       "members": 6,
       "formedYear": 2020,
       "xFollowers": 2517,
-      "ytSubscribers": 8500,
+      "ytSubscribers": 8900,
       "schedule": "https://timetreeapp.com/public_calendars/gootcrew_"
     },
     {
@@ -33,7 +33,7 @@
       "members": 6,
       "formedYear": 2021,
       "xFollowers": 7826,
-      "ytSubscribers": 3600
+      "ytSubscribers": 3610
     },
     {
       "type": "group",
@@ -44,7 +44,7 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 4026,
-      "ytSubscribers": 967,
+      "ytSubscribers": 969,
       "schedule": "https://timetreeapp.com/public_calendars/qualy"
     },
     {
@@ -105,7 +105,7 @@
       "members": 7,
       "formedYear": 2025,
       "xFollowers": 1884,
-      "ytSubscribers": 284
+      "ytSubscribers": 285
     },
     {
       "type": "group",
@@ -116,7 +116,7 @@
       "members": 3,
       "formedYear": 2026,
       "xFollowers": 1545,
-      "ytSubscribers": 173,
+      "ytSubscribers": 174,
       "schedule": "https://timetr.ee/p/suiama",
       "website": "https://suiama.jp"
     },
@@ -129,18 +129,18 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 2073,
-      "ytSubscribers": 689
+      "ytSubscribers": 693
     },
     {
       "type": "group",
       "name": "ハピネスクラッカー！",
       "x": "hpcr_idol",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E3%83%8F%E3%83%94%E3%83%8D%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%82%AB%E3%83%BC",
       "area": "大阪",
       "members": 4,
       "formedYear": 2025,
       "xFollowers": 2304,
-      "ytSubscribers": null,
+      "ytSubscribers": 24,
       "schedule": "https://timetreeapp.com/public_calendars/hpcr_idol"
     },
     {
@@ -183,71 +183,71 @@
       "type": "group",
       "name": "cleomery",
       "x": "cleomery_info",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@cleomery",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 1271,
-      "ytSubscribers": null
+      "ytSubscribers": 348
     },
     {
       "type": "group",
       "name": "感情線は時をこえて",
       "x": "kanjosen_info",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@kanjosen_PR",
       "area": "大阪",
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1296,
-      "ytSubscribers": null,
+      "ytSubscribers": 29,
       "schedule": "https://timetreeapp.com/public_calendars/kanjosen_schedule"
     },
     {
       "type": "group",
       "name": "リリシック学園",
       "x": "lilysicgakuen",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@lilysicgakuen",
       "area": "大阪",
       "members": null,
       "formedYear": 2011,
       "xFollowers": 4968,
-      "ytSubscribers": null,
+      "ytSubscribers": 1070,
       "website": "http://lilysic.com"
     },
     {
       "type": "group",
       "name": "ChanceMovement",
       "x": "_Chance_M_",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@chancemovement",
       "area": "滋賀",
       "members": null,
       "formedYear": 2021,
       "xFollowers": 7237,
-      "ytSubscribers": null,
+      "ytSubscribers": 734,
       "schedule": "https://timetreeapp.com/public_calendars/cm_event_"
     },
     {
       "type": "group",
       "name": "ミケネコガールズ",
       "x": "mikeneko_girls",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@mikeneko_girls",
       "area": "大阪",
       "members": null,
       "formedYear": 2019,
       "xFollowers": 1775,
-      "ytSubscribers": null,
+      "ytSubscribers": 886,
       "schedule": "https://timetreeapp.com/public_calendars/mikenekoschedule"
     },
     {
       "type": "group",
       "name": "リボンのないぷれぜんと",
       "x": "RiboNai_idol",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@100days_idolproject",
       "area": "大阪",
       "members": null,
       "formedYear": 2023,
       "xFollowers": 1786,
-      "ytSubscribers": null,
+      "ytSubscribers": 1590,
       "schedule": "https://timetr.ee/p/ribonai_idol",
       "website": "http://ribo-nai.thefam.jp"
     },
@@ -268,12 +268,12 @@
       "type": "group",
       "name": "わんだふる×ぱにっく",
       "x": "wonderful_panic",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@wonderful_x_panic",
       "area": "大阪",
       "members": null,
       "formedYear": 2026,
       "xFollowers": 525,
-      "ytSubscribers": null,
+      "ytSubscribers": 61,
       "schedule": "https://timetreeapp.com/public_calendars/wanpani_live"
     },
     {
@@ -304,12 +304,12 @@
       "type": "group",
       "name": "BUGTTE！",
       "x": "BUGTTE_idol",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@BUGTTE",
       "area": "大阪",
       "members": null,
       "formedYear": 2025,
       "xFollowers": 1197,
-      "ytSubscribers": null,
+      "ytSubscribers": 182,
       "schedule": "https://timetr.ee/p/bugtte",
       "website": "https://emmstudio.jp/bugtte"
     },
@@ -330,12 +330,12 @@
       "type": "group",
       "name": "KiMiNiAiTAi",
       "x": "KiMiAi_idol",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@kiminiaitaiofficial2063",
       "area": "大阪",
       "members": null,
       "formedYear": 2021,
       "xFollowers": 2096,
-      "ytSubscribers": null
+      "ytSubscribers": 520
     },
     {
       "type": "group",
@@ -352,12 +352,12 @@
       "type": "group",
       "name": "わんみゅーず！",
       "x": "onemuseofficial",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E3%82%8F%E3%82%93%E3%81%BF%E3%82%85%E3%83%BC%E3%81%9A",
       "area": "大阪",
       "members": null,
       "formedYear": 2025,
       "xFollowers": 1647,
-      "ytSubscribers": null,
+      "ytSubscribers": 51,
       "schedule": "https://timetr.ee/p/onemuse_official"
     },
     {
@@ -375,12 +375,12 @@
       "type": "group",
       "name": "NaNiYoRi",
       "x": "NaNiYoRi_staff",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@naniyori3119",
       "area": "大阪",
       "members": null,
       "formedYear": 2021,
       "xFollowers": 2876,
-      "ytSubscribers": null,
+      "ytSubscribers": 734,
       "schedule": "https://timetreeapp.com/public_calendars/naniyori",
       "website": "http://idol-idol.net"
     },
@@ -400,35 +400,35 @@
       "type": "group",
       "name": "にゃあにゃあ",
       "x": "nyaa2_info",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@nyaa2_tube",
       "area": "大阪",
       "members": null,
       "formedYear": 2025,
       "xFollowers": 508,
-      "ytSubscribers": null,
+      "ytSubscribers": 48,
       "schedule": "https://timetreeapp.com/public_calendars/_nyaa_nyaa"
     },
     {
       "type": "group",
       "name": "ALONYS",
       "x": "alonys_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@ALONYS_official",
       "area": "大阪",
       "members": null,
       "formedYear": 2026,
       "xFollowers": 366,
-      "ytSubscribers": null
+      "ytSubscribers": 55
     },
     {
       "type": "group",
       "name": "AIMIA",
       "x": "aimia_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@AIMIA_official",
       "area": "大阪",
       "members": null,
       "formedYear": 2017,
       "xFollowers": 3411,
-      "ytSubscribers": null,
+      "ytSubscribers": 431,
       "schedule": "https://timetr.ee/p/aimia_idol",
       "website": "https://aimia.jp"
     },
@@ -436,57 +436,57 @@
       "type": "group",
       "name": "+Alpha",
       "x": "_plusalpha_",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@p_lus_alpha_official",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 1573,
-      "ytSubscribers": null,
+      "ytSubscribers": 355,
       "schedule": "https://timetreeapp.com/public_calendars/plus_alpha_official"
     },
     {
       "type": "group",
       "name": "Morpho",
       "x": "HF_Morpho",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@Morpho%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8BOfficial",
       "area": "大阪",
       "members": null,
       "formedYear": 2026,
       "xFollowers": 360,
-      "ytSubscribers": null
+      "ytSubscribers": 120
     },
     {
       "type": "group",
       "name": "Poifull",
       "x": "HF_Poifull",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@Poifull_5",
       "area": "大阪",
       "members": null,
       "formedYear": 2026,
       "xFollowers": 370,
-      "ytSubscribers": null
+      "ytSubscribers": 225
     },
     {
       "type": "group",
       "name": "ちょこみんと",
       "x": "chocomint_mme",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@dani_chocomin",
       "area": "大阪",
       "members": null,
       "formedYear": 2025,
       "xFollowers": 987,
-      "ytSubscribers": null
+      "ytSubscribers": 43
     },
     {
       "type": "group",
       "name": "Nody",
       "x": "no_day_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@no_day_idol",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 1811,
-      "ytSubscribers": null
+      "ytSubscribers": 585
     },
     {
       "type": "group",
@@ -504,59 +504,59 @@
       "type": "group",
       "name": "KAMuRO",
       "x": "KAMuRO_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@KAMuROofficial",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 1654,
-      "ytSubscribers": null,
+      "ytSubscribers": 138,
       "website": "https://kamuro-idol.com"
     },
     {
       "type": "group",
       "name": "da-gashi☆",
       "x": "dagashi_OFC",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@dagashi_idol",
       "area": "大阪",
       "members": null,
       "formedYear": 2018,
       "xFollowers": 2106,
-      "ytSubscribers": null,
+      "ytSubscribers": 569,
       "schedule": "https://timetr.ee/pc/dagashi"
     },
     {
       "type": "group",
       "name": "大阪24区ガールズ",
       "x": "osaka24girls",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E5%A4%A7%E9%98%AA24%E5%8C%BA%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA",
       "area": "大阪",
       "members": null,
       "formedYear": 2018,
       "xFollowers": 4978,
-      "ytSubscribers": null,
+      "ytSubscribers": 1230,
       "website": "https://osaka24.jp"
     },
     {
       "type": "group",
       "name": "NEO BREAK",
       "x": "NEOBREAK_info",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@NEOBREAK",
       "area": "大阪",
       "members": 6,
       "formedYear": 2017,
       "xFollowers": 3866,
-      "ytSubscribers": null
+      "ytSubscribers": 9910
     },
     {
       "type": "group",
       "name": "AQ",
       "x": "AQ_inf",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@AQ_kyoto",
       "area": "京都",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 3099,
-      "ytSubscribers": null
+      "ytSubscribers": 1570
     },
     {
       "type": "group",
@@ -574,46 +574,46 @@
       "type": "group",
       "name": "カラフルスクリーム",
       "x": "colorful_scream",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E3%82%AB%E3%83%A9%E3%83%95%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0",
       "area": "大阪",
       "members": 8,
       "formedYear": 2017,
       "xFollowers": 11000,
-      "ytSubscribers": null,
+      "ytSubscribers": 27500,
       "website": "https://colorfulscream-fc.com"
     },
     {
       "type": "group",
       "name": "KRD8",
       "x": "KRD_08",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@KRD8",
       "area": "兵庫",
       "members": 8,
       "formedYear": 2014,
       "xFollowers": 10000,
-      "ytSubscribers": null
+      "ytSubscribers": 4110
     },
     {
       "type": "group",
       "name": "KOBerrieS♪",
       "x": "KOB_S2014",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@koberries",
       "area": "兵庫",
       "members": null,
       "formedYear": 2012,
       "xFollowers": 5914,
-      "ytSubscribers": null
+      "ytSubscribers": 1120
     },
     {
       "type": "group",
       "name": "宇宙∞プラネクシア",
       "x": "space_planexia",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@space_planexia",
       "area": "大阪",
       "members": 6,
       "formedYear": 2025,
       "xFollowers": 2460,
-      "ytSubscribers": null,
+      "ytSubscribers": 920,
       "schedule": "https://87tm.github.io/supepura_calendar/index.html",
       "website": "https://mme.tokyo/space-planexia"
     },
@@ -621,68 +621,68 @@
       "type": "group",
       "name": "tune time capsule",
       "x": "tunetimecapsule",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@tunetimecapsule",
       "area": "大阪",
       "members": 7,
       "formedYear": 2026,
       "xFollowers": 1831,
-      "ytSubscribers": null
+      "ytSubscribers": 599
     },
     {
       "type": "group",
       "name": "あおぞらをキミに",
       "x": "aozorawokimini",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E5%85%AC%E5%BC%8F%E3%81%82%E3%81%8A%E3%81%9E%E3%82%89%E3%82%92%E3%82%AD%E3%83%9F%E3%81%AB",
       "area": "大阪",
       "members": 6,
       "formedYear": 2022,
       "xFollowers": 3387,
-      "ytSubscribers": null
+      "ytSubscribers": 1450
     },
     {
       "type": "group",
       "name": "link start",
       "x": "link___start",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@linkstart-official",
       "area": "大阪",
       "members": 4,
       "formedYear": 2022,
       "xFollowers": 3153,
-      "ytSubscribers": null
+      "ytSubscribers": 815
     },
     {
       "type": "group",
       "name": "イロハサクラ",
       "x": "irohaskr",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@irohasakura",
       "area": "大阪",
       "members": null,
       "formedYear": 2018,
       "xFollowers": 3784,
-      "ytSubscribers": null,
+      "ytSubscribers": 1510,
       "website": "https://irohasakura.com"
     },
     {
       "type": "group",
       "name": "AI♡RARA",
       "x": "AIRARA_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@AIRARA_OFFICIAL",
       "area": "大阪",
       "members": 2,
       "formedYear": 2024,
       "xFollowers": 2390,
-      "ytSubscribers": null
+      "ytSubscribers": 2490
     },
     {
       "type": "group",
       "name": "COzMICぱれーど",
       "x": "COzMIC_parade",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@COzMIC%E3%81%B1%E3%82%8C%E3%83%BC%E3%81%A9",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 2640,
-      "ytSubscribers": null
+      "ytSubscribers": 281
     },
     {
       "type": "group",
@@ -700,36 +700,36 @@
       "type": "group",
       "name": "ボクセカ",
       "x": "bksk_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@bksk_official",
       "area": "大阪",
       "members": null,
       "formedYear": 2022,
       "xFollowers": 2882,
-      "ytSubscribers": null,
+      "ytSubscribers": 546,
       "schedule": "https://timetr.ee/p/bksk_official"
     },
     {
       "type": "group",
       "name": "大阪☆春夏秋冬",
       "x": "syukasyun",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E6%96%B0%E7%AB%A0%E5%A4%A7%E9%98%AA%E6%98%A5%E5%A4%8F%E7%A7%8B%E5%86%AC",
       "area": "大阪",
       "members": 4,
       "formedYear": 2012,
       "xFollowers": 9308,
-      "ytSubscribers": null,
+      "ytSubscribers": 2550,
       "website": "https://syukasyun.com"
     },
     {
       "type": "group",
       "name": "いつかの夜に僕たちが、",
       "x": "itsuyoru_info",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@ITSUYORU-official",
       "area": "大阪",
       "members": 4,
       "formedYear": 2024,
       "xFollowers": 3607,
-      "ytSubscribers": null,
+      "ytSubscribers": 2320,
       "schedule": "https://timetreeapp.com/public_calendars/itsuyoru_schedule"
     },
     {
@@ -753,7 +753,7 @@
       "members": 7,
       "formedYear": 2024,
       "xFollowers": 2685,
-      "ytSubscribers": null
+      "ytSubscribers": 1620
     },
     {
       "type": "group",
@@ -770,12 +770,12 @@
       "type": "group",
       "name": "すべての瞬間は君だった。",
       "x": "subekimi_info",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@subekimi",
       "area": "大阪",
       "members": 5,
       "formedYear": 2024,
       "xFollowers": 6026,
-      "ytSubscribers": null,
+      "ytSubscribers": 2340,
       "schedule": "https://timetreeapp.com/public_calendars/subekimi",
       "website": "https://subekimi.com"
     },
@@ -783,36 +783,36 @@
       "type": "group",
       "name": "caprice",
       "x": "caprice08_29",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@caprice4808",
       "area": "大阪",
       "members": null,
       "formedYear": 2021,
       "xFollowers": 3147,
-      "ytSubscribers": null,
+      "ytSubscribers": 653,
       "schedule": "https://timetr.ee/p/caprice08_29"
     },
     {
       "type": "group",
       "name": "AsteRythm",
       "x": "AsteRythm__1028",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@AsteRythm__1028",
       "area": "大阪",
       "members": 3,
       "formedYear": 2022,
       "xFollowers": 1979,
-      "ytSubscribers": null,
+      "ytSubscribers": 489,
       "schedule": "https://timetr.ee/pc/asterythm"
     },
     {
       "type": "group",
       "name": "LØISLOID",
       "x": "loisloid_of",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@L%C3%98ISLOID0316",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 2334,
-      "ytSubscribers": null,
+      "ytSubscribers": 822,
       "schedule": "https://timetr.ee/p/loisloid_live",
       "website": "https://loisloid.jp"
     },
@@ -820,24 +820,24 @@
       "type": "group",
       "name": "うぃるめり！",
       "x": "willmerry_idol",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E3%81%86%E3%81%83%E3%82%8B%E3%82%81%E3%82%8A-j5h",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 2123,
-      "ytSubscribers": null,
+      "ytSubscribers": 65,
       "schedule": "https://timetr.ee/p/willmerry"
     },
     {
       "type": "group",
       "name": "HIBANA",
       "x": "HBN_187",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@HBN_187",
       "area": "大阪",
       "members": 5,
       "formedYear": 2024,
       "xFollowers": 5943,
-      "ytSubscribers": null,
+      "ytSubscribers": 2100,
       "schedule": "https://timetr.ee/p/hbn_187"
     },
     {
@@ -849,40 +849,40 @@
       "members": 4,
       "formedYear": 2018,
       "xFollowers": 8472,
-      "ytSubscribers": null
+      "ytSubscribers": 10700
     },
     {
       "type": "group",
       "name": "Axelight",
       "x": "axlt_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@axelightofficial3417",
       "area": "大阪",
       "members": null,
       "formedYear": 2022,
       "xFollowers": 5135,
-      "ytSubscribers": null
+      "ytSubscribers": 1740
     },
     {
       "type": "group",
       "name": "ゼロキョリハーツ",
       "x": "ZKH_official",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E3%82%BC%E3%83%AD%E3%82%AD%E3%83%A7%E3%83%AA%E3%83%8F%E3%83%BC%E3%83%84",
       "area": "大阪",
       "members": null,
       "formedYear": 2024,
       "xFollowers": 2499,
-      "ytSubscribers": null
+      "ytSubscribers": 220
     },
     {
       "type": "group",
       "name": "MAGMAZ",
       "x": "MAGMAZ_jp",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@MAGMAZ_jp",
       "area": "大阪",
       "members": 5,
       "formedYear": 2022,
       "xFollowers": 6172,
-      "ytSubscribers": null
+      "ytSubscribers": 48100
     },
     {
       "type": "group",
@@ -893,7 +893,7 @@
       "members": null,
       "formedYear": 2022,
       "xFollowers": 7239,
-      "ytSubscribers": null
+      "ytSubscribers": 2650
     },
     {
       "type": "group",
@@ -904,7 +904,7 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 4270,
-      "ytSubscribers": null
+      "ytSubscribers": 1850
     },
     {
       "type": "group",
@@ -915,19 +915,19 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 5508,
-      "ytSubscribers": null,
+      "ytSubscribers": 1850,
       "schedule": "https://timetreeapp.com/public_calendars/black_white_alice"
     },
     {
       "type": "group",
       "name": "Quubi",
       "x": "quubi_o",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@Quubiofficial",
       "area": "大阪",
       "members": 3,
       "formedYear": 2021,
       "xFollowers": 7895,
-      "ytSubscribers": null
+      "ytSubscribers": 4350
     },
     {
       "type": "group",
@@ -956,23 +956,23 @@
       "type": "group",
       "name": "プラチナリボン",
       "x": "platinumribbon",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E3%83%97%E3%83%A9%E3%83%81%E3%83%8A%E3%83%AA%E3%83%9C%E3%83%B3-n3v",
       "area": "大阪",
       "members": 6,
       "formedYear": 2025,
       "xFollowers": 1515,
-      "ytSubscribers": null
+      "ytSubscribers": 80
     },
     {
       "type": "group",
       "name": "ELEVYZ",
       "x": "ELEVYZ_jp",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@ELEVYZchannel",
       "area": "大阪",
       "members": 5,
       "formedYear": 2025,
       "xFollowers": 2152,
-      "ytSubscribers": null,
+      "ytSubscribers": 681,
       "website": "https://elevyz.ryzm.jp"
     },
     {
@@ -984,7 +984,7 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 1236,
-      "ytSubscribers": null,
+      "ytSubscribers": 278,
       "schedule": "https://timetr.ee/p/lotus_marry"
     },
     {
@@ -996,7 +996,7 @@
       "members": 7,
       "formedYear": 2020,
       "xFollowers": 2982,
-      "ytSubscribers": null,
+      "ytSubscribers": 822,
       "schedule": "https://timetreeapp.com/public_calendars/neterudialive"
     },
     {
@@ -1030,7 +1030,7 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1370,
-      "ytSubscribers": null,
+      "ytSubscribers": 91,
       "schedule": "https://timetreeapp.com/public_calendars/piriri"
     },
     {
@@ -1089,7 +1089,7 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1076,
-      "ytSubscribers": null,
+      "ytSubscribers": 238,
       "schedule": "https://timetreeapp.com/public_calendars/melorabbi"
     },
     {
@@ -1108,12 +1108,12 @@
       "type": "group",
       "name": "アブソプ",
       "x": "Absopetus_info",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@%E3%82%A2%E3%83%96%E3%82%BD%E3%83%97-ABSOP",
       "area": "大阪",
       "members": 4,
       "formedYear": 2021,
       "xFollowers": 4748,
-      "ytSubscribers": null,
+      "ytSubscribers": 205,
       "schedule": "https://timetreeapp.com/public_calendars/absopetus_info"
     },
     {
@@ -1131,12 +1131,12 @@
       "type": "group",
       "name": "SPRISE",
       "x": "SPRISE_OFFICIAL",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@sprise3181",
       "area": "大阪",
       "members": 5,
       "formedYear": 2018,
       "xFollowers": 10000,
-      "ytSubscribers": null,
+      "ytSubscribers": 2080,
       "schedule": "https://timetr.ee/pc/sprise"
     },
     {
@@ -1148,7 +1148,7 @@
       "members": 3,
       "formedYear": 2025,
       "xFollowers": 836,
-      "ytSubscribers": null,
+      "ytSubscribers": 170,
       "schedule": "https://timetr.ee/p/archangel078",
       "website": "https://sites.google.com/view/archangel078"
     },
@@ -1168,12 +1168,12 @@
       "type": "group",
       "name": "キラピュアップ",
       "x": "KiraPure_up",
-      "youtube": null,
+      "youtube": "https://www.youtube.com/@KiraPure-up",
       "area": "大阪",
       "members": 7,
       "formedYear": 2026,
       "xFollowers": 1229,
-      "ytSubscribers": null,
+      "ytSubscribers": 411,
       "schedule": "https://timetreeapp.com/public_calendars/kirapure_up"
     },
     {
