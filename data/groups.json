@@ -1089,6 +1089,28 @@
       "formedYear": 2026,
       "xFollowers": 733,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "キラピュアップ",
+      "x": "KiraPure_up",
+      "youtube": null,
+      "area": "大阪",
+      "members": 7,
+      "formedYear": 2026,
+      "xFollowers": 1229,
+      "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "name": "REBEL REBEL",
+      "x": "rebelrebel_id",
+      "youtube": null,
+      "area": "大阪",
+      "members": 2,
+      "formedYear": 2020,
+      "xFollowers": 1619,
+      "ytSubscribers": null
     }
   ]
 }
