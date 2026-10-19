@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-19",
   "groups": [
     {
       "type": "group",
@@ -10,7 +10,8 @@
       "members": 6,
       "formedYear": 2020,
       "xFollowers": 2517,
-      "ytSubscribers": 8500
+      "ytSubscribers": 8500,
+      "schedule": "https://timetreeapp.com/public_calendars/gootcrew_"
     },
     {
       "type": "group",
@@ -43,7 +44,8 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 4026,
-      "ytSubscribers": 967
+      "ytSubscribers": 967,
+      "schedule": "https://timetreeapp.com/public_calendars/qualy"
     },
     {
       "type": "group",
@@ -54,7 +56,8 @@
       "members": null,
       "formedYear": 2020,
       "xFollowers": 3672,
-      "ytSubscribers": 2000
+      "ytSubscribers": 2000,
+      "schedule": "https://timetreeapp.com/public_calendars/rimmir_info"
     },
     {
       "type": "group",
@@ -65,7 +68,9 @@
       "members": null,
       "formedYear": 2017,
       "xFollowers": 12000,
-      "ytSubscribers": 4330
+      "ytSubscribers": 4330,
+      "schedule": "https://timetr.ee/p/skkh_official",
+      "website": "http://sakuya-konohana.net"
     },
     {
       "type": "group",
@@ -76,7 +81,8 @@
       "members": 6,
       "formedYear": 2017,
       "xFollowers": 10000,
-      "ytSubscribers": 5920
+      "ytSubscribers": 5920,
+      "website": "http://mme.tokyo/w"
     },
     {
       "type": "group",
@@ -87,7 +93,8 @@
       "members": null,
       "formedYear": 2022,
       "xFollowers": 3618,
-      "ytSubscribers": 1150
+      "ytSubscribers": 1150,
+      "schedule": "https://timetr.ee/p/meluq"
     },
     {
       "type": "group",
@@ -109,7 +116,9 @@
       "members": 3,
       "formedYear": 2026,
       "xFollowers": 1545,
-      "ytSubscribers": 173
+      "ytSubscribers": 173,
+      "schedule": "https://timetr.ee/p/suiama",
+      "website": "https://suiama.jp"
     },
     {
       "type": "group",
@@ -131,7 +140,8 @@
       "members": 4,
       "formedYear": 2025,
       "xFollowers": 2304,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/hpcr_idol"
     },
     {
       "type": "group",
@@ -142,7 +152,8 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 2245,
-      "ytSubscribers": 333
+      "ytSubscribers": 333,
+      "schedule": "https://timetreeapp.com/public_calendars/fillemimi_schedule"
     },
     {
       "type": "group",
@@ -164,7 +175,9 @@
       "members": 4,
       "formedYear": 2025,
       "xFollowers": 1281,
-      "ytSubscribers": 217
+      "ytSubscribers": 217,
+      "schedule": "https://timetr.ee/p/polaris_off",
+      "website": "https://polaris-idol.com"
     },
     {
       "type": "group",
@@ -186,7 +199,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1296,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/kanjosen_schedule"
     },
     {
       "type": "group",
@@ -197,7 +211,8 @@
       "members": null,
       "formedYear": 2011,
       "xFollowers": 4968,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "http://lilysic.com"
     },
     {
       "type": "group",
@@ -208,7 +223,8 @@
       "members": null,
       "formedYear": 2021,
       "xFollowers": 7237,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/cm_event_"
     },
     {
       "type": "group",
@@ -219,7 +235,8 @@
       "members": null,
       "formedYear": 2019,
       "xFollowers": 1775,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/mikenekoschedule"
     },
     {
       "type": "group",
@@ -230,7 +247,9 @@
       "members": null,
       "formedYear": 2023,
       "xFollowers": 1786,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/ribonai_idol",
+      "website": "http://ribo-nai.thefam.jp"
     },
     {
       "type": "group",
@@ -241,7 +260,9 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1487,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/97percent",
+      "website": "https://mme.tokyo/98percent"
     },
     {
       "type": "group",
@@ -252,7 +273,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 525,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/wanpani_live"
     },
     {
       "type": "group",
@@ -274,7 +296,9 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 1561,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/clancrown",
+      "website": "https://clancrown.jp"
     },
     {
       "type": "group",
@@ -285,7 +309,9 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 1197,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/bugtte",
+      "website": "https://emmstudio.jp/bugtte"
     },
     {
       "type": "group",
@@ -296,7 +322,9 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 247,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/hoshitsumo",
+      "website": "https://emmstudio.jp/hoshitsumo"
     },
     {
       "type": "group",
@@ -329,7 +357,8 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 1647,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/onemuse_official"
     },
     {
       "type": "group",
@@ -351,7 +380,9 @@
       "members": null,
       "formedYear": 2021,
       "xFollowers": 2876,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/naniyori",
+      "website": "http://idol-idol.net"
     },
     {
       "type": "group",
@@ -362,7 +393,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1104,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/matatabi_info_"
     },
     {
       "type": "group",
@@ -373,7 +405,8 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 508,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/_nyaa_nyaa"
     },
     {
       "type": "group",
@@ -395,7 +428,9 @@
       "members": null,
       "formedYear": 2017,
       "xFollowers": 3411,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/aimia_idol",
+      "website": "https://aimia.jp"
     },
     {
       "type": "group",
@@ -406,7 +441,8 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 1573,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/plus_alpha_official"
     },
     {
       "type": "group",
@@ -461,7 +497,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 981,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/s1220"
     },
     {
       "type": "group",
@@ -472,7 +509,8 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 1654,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://kamuro-idol.com"
     },
     {
       "type": "group",
@@ -483,7 +521,8 @@
       "members": null,
       "formedYear": 2018,
       "xFollowers": 2106,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/pc/dagashi"
     },
     {
       "type": "group",
@@ -494,7 +533,8 @@
       "members": null,
       "formedYear": 2018,
       "xFollowers": 4978,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://osaka24.jp"
     },
     {
       "type": "group",
@@ -527,7 +567,8 @@
       "members": 8,
       "formedYear": 2020,
       "xFollowers": 5893,
-      "ytSubscribers": 1620
+      "ytSubscribers": 1620,
+      "website": "https://super-pouvoir.ntrecords.com"
     },
     {
       "type": "group",
@@ -538,7 +579,8 @@
       "members": 8,
       "formedYear": 2017,
       "xFollowers": 11000,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://colorfulscream-fc.com"
     },
     {
       "type": "group",
@@ -571,7 +613,9 @@
       "members": 6,
       "formedYear": 2025,
       "xFollowers": 2460,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://87tm.github.io/supepura_calendar/index.html",
+      "website": "https://mme.tokyo/space-planexia"
     },
     {
       "type": "group",
@@ -615,7 +659,8 @@
       "members": null,
       "formedYear": 2018,
       "xFollowers": 3784,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://irohasakura.com"
     },
     {
       "type": "group",
@@ -648,7 +693,8 @@
       "members": 4,
       "formedYear": 2021,
       "xFollowers": 2466,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://reve-ent.com/bemylove"
     },
     {
       "type": "group",
@@ -659,7 +705,8 @@
       "members": null,
       "formedYear": 2022,
       "xFollowers": 2882,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/bksk_official"
     },
     {
       "type": "group",
@@ -670,7 +717,8 @@
       "members": 4,
       "formedYear": 2012,
       "xFollowers": 9308,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://syukasyun.com"
     },
     {
       "type": "group",
@@ -681,7 +729,8 @@
       "members": 4,
       "formedYear": 2024,
       "xFollowers": 3607,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/itsuyoru_schedule"
     },
     {
       "type": "group",
@@ -692,7 +741,8 @@
       "members": null,
       "formedYear": 2020,
       "xFollowers": 8356,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/whatscircle_official"
     },
     {
       "type": "group",
@@ -725,7 +775,9 @@
       "members": 5,
       "formedYear": 2024,
       "xFollowers": 6026,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/subekimi",
+      "website": "https://subekimi.com"
     },
     {
       "type": "group",
@@ -736,7 +788,8 @@
       "members": null,
       "formedYear": 2021,
       "xFollowers": 3147,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/caprice08_29"
     },
     {
       "type": "group",
@@ -747,7 +800,8 @@
       "members": 3,
       "formedYear": 2022,
       "xFollowers": 1979,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/pc/asterythm"
     },
     {
       "type": "group",
@@ -758,7 +812,9 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 2334,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/loisloid_live",
+      "website": "https://loisloid.jp"
     },
     {
       "type": "group",
@@ -769,7 +825,8 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 2123,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/willmerry"
     },
     {
       "type": "group",
@@ -780,7 +837,8 @@
       "members": 5,
       "formedYear": 2024,
       "xFollowers": 5943,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/hbn_187"
     },
     {
       "type": "group",
@@ -857,7 +915,8 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 5508,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/black_white_alice"
     },
     {
       "type": "group",
@@ -879,7 +938,8 @@
       "members": 6,
       "formedYear": 2026,
       "xFollowers": 1031,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/melucharm"
     },
     {
       "type": "group",
@@ -912,7 +972,8 @@
       "members": 5,
       "formedYear": 2025,
       "xFollowers": 2152,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://elevyz.ryzm.jp"
     },
     {
       "type": "group",
@@ -923,7 +984,8 @@
       "members": null,
       "formedYear": 2025,
       "xFollowers": 1236,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/lotus_marry"
     },
     {
       "type": "group",
@@ -934,7 +996,8 @@
       "members": 7,
       "formedYear": 2020,
       "xFollowers": 2982,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/neterudialive"
     },
     {
       "type": "group",
@@ -967,7 +1030,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1370,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/piriri"
     },
     {
       "type": "group",
@@ -978,7 +1042,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 741,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "website": "https://pryunetwinqlet.com"
     },
     {
       "type": "group",
@@ -1000,7 +1065,8 @@
       "members": 4,
       "formedYear": 2024,
       "xFollowers": 2500,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/sanuglow"
     },
     {
       "type": "group",
@@ -1011,7 +1077,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1135,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/lumiprima"
     },
     {
       "type": "group",
@@ -1022,7 +1089,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 1076,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/melorabbi"
     },
     {
       "type": "group",
@@ -1033,7 +1101,8 @@
       "members": null,
       "formedYear": 2024,
       "xFollowers": 1035,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://himeji-krd24pt.com/schedule"
     },
     {
       "type": "group",
@@ -1044,7 +1113,8 @@
       "members": 4,
       "formedYear": 2021,
       "xFollowers": 4748,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/absopetus_info"
     },
     {
       "type": "group",
@@ -1066,7 +1136,8 @@
       "members": 5,
       "formedYear": 2018,
       "xFollowers": 10000,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/pc/sprise"
     },
     {
       "type": "group",
@@ -1077,7 +1148,9 @@
       "members": 3,
       "formedYear": 2025,
       "xFollowers": 836,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/archangel078",
+      "website": "https://sites.google.com/view/archangel078"
     },
     {
       "type": "group",
@@ -1088,7 +1161,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 733,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/pureme_schedule"
     },
     {
       "type": "group",
@@ -1099,7 +1173,8 @@
       "members": 7,
       "formedYear": 2026,
       "xFollowers": 1229,
-      "ytSubscribers": null
+      "ytSubscribers": null,
+      "schedule": "https://timetreeapp.com/public_calendars/kirapure_up"
     },
     {
       "type": "group",
