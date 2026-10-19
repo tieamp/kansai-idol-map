@@ -1681,6 +1681,24 @@
         "2025年5月6日 大阪でデビュー",
         "大阪代表ROCK IDOL"
       ]
+    },
+    {
+      "type": "group",
+      "name": "MIRA DOLL",
+      "x": "miradoll_info",
+      "youtube": "https://www.youtube.com/@miradoll-official",
+      "area": "大阪",
+      "members": 7,
+      "formedYear": 2026,
+      "xFollowers": 2222,
+      "ytSubscribers": 363,
+      "schedule": "https://timetr.ee/p/miradoll_info",
+      "website": "https://if-factory.jp/artist/miradoll",
+      "topics": [
+        "2026年10月1日デビュー",
+        "「アナタと刻む 最期の夢」",
+        "IF FACTORY所属（カミサマパレード・DIAVELと同事務所）"
+      ]
     }
   ]
 }
