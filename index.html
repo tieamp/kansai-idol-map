@@ -207,7 +207,7 @@ function render(){
 function linksHtml(g){
   const a = [];
   if (g.schedule) a.push(`<a href="${esc(g.schedule)}" target="_blank" rel="noopener">スケジュール</a>`);
-  if (g.website) a.push(`<a href="${esc(g.website)}" target="_blank" rel="noopener">公式HP</a>`);
+  if (g.website) a.push(`<a href="${esc(g.website)}" target="_blank" rel="noopener">${/^https?:\/\/lit\.link\//.test(g.website)?"リンク集":"公式HP"}</a>`);
   return a.length ? `<div class="links">${a.join("")}</div>` : "";
 }
 function topicHtml(g){
