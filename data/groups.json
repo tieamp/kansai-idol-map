@@ -1649,6 +1649,38 @@
         "エモーショナルロックアイドル",
         "初ワンマンを開催（2024年12月9日）"
       ]
+    },
+    {
+      "type": "group",
+      "youtube": null,
+      "ytSubscribers": null,
+      "area": "大阪",
+      "members": 3,
+      "name": "ディノゾール",
+      "x": "dino_saur_idol",
+      "formedYear": 2021,
+      "xFollowers": 2354,
+      "schedule": "https://timetreeapp.com/public_calendars/dinosaur_idol",
+      "topics": [
+        "「関西最強のロックアイドルグループ」",
+        "恐竜がテーマ。アイドル界のてっぺんを目指す"
+      ]
+    },
+    {
+      "type": "group",
+      "youtube": "https://www.youtube.com/@C%C3%98C%C3%98RIZE",
+      "ytSubscribers": 6370,
+      "area": "大阪",
+      "members": 2,
+      "name": "CØCØRIZE",
+      "x": "cocorize_idol",
+      "formedYear": 2025,
+      "xFollowers": 1591,
+      "website": "https://linktr.ee/COCORIZE",
+      "topics": [
+        "2025年5月6日 大阪でデビュー",
+        "大阪代表ROCK IDOL"
+      ]
     }
   ]
 }
