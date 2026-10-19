@@ -1516,6 +1516,37 @@
         "Electronica Citypop"
       ],
       "website": "https://lit.link/spiritwalker"
+    },
+    {
+      "type": "group",
+      "name": "カミサマパレード",
+      "x": "https://x.com/kamipare_info",
+      "youtube": "https://www.youtube.com/@kamipare",
+      "area": "大阪",
+      "members": 6,
+      "formedYear": 2024,
+      "xFollowers": 3964,
+      "ytSubscribers": 2390,
+      "schedule": "https://timetreeapp.com/public_calendars/kamipare_info",
+      "website": "https://if-factory.jp/artist/kamisama-parade/",
+      "topics": [
+        "2026年2月25日 梅田バナナホールで新体制1stワンマン",
+        "「アナタを誘う 秘密のパレード」",
+        "IF FACTORY所属"
+      ]
+    },
+    {
+      "type": "group",
+      "name": "sync-sens",
+      "x": "https://x.com/sync_sens_idol",
+      "area": "大阪",
+      "members": 3,
+      "formedYear": 2024,
+      "xFollowers": 1204,
+      "schedule": "https://timetr.ee/p/sync_sens",
+      "topics": [
+        "「刺激的でセンセーショナルな私たちの世界へ」"
+      ]
     }
   ]
 }
