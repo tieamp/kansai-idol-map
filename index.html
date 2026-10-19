@@ -66,6 +66,11 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
 .chip.go{cursor:pointer;background:var(--pop1);color:#2a2140}
 .chip small{font-weight:500;color:var(--sub);margin-left:4px}
 .chip.go small{color:#2a2140}
+.links{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;margin-top:4px}
+.links a{color:var(--accent);text-decoration:none}
+.ach{margin:8px 0 0;padding:8px 10px;border-radius:10px;background:var(--pop1);color:#2a2140;font-size:12.5px;line-height:1.55}
+.ach b{display:block;font-size:11px;opacity:.7;margin-bottom:2px}
+.ach ul{margin:0;padding-left:1.1em}
 .note{font-size:11px;color:var(--sub);margin:6px 0 0}
 .flash{animation:fl 1.2s}
 @keyframes fl{0%,60%{box-shadow:0 0 0 5px var(--pop2),4px 4px 0 var(--shadow)}100%{box-shadow:4px 4px 0 var(--shadow)}}
@@ -193,11 +198,22 @@ function render(){
         <span>X <a href="https://x.com/${esc(g.x)}" target="_blank" rel="noopener">@${esc(g.x)}</a> ${fmt(g.xFollowers)}</span>
         ${g.youtube ? `<span>YouTube <a href="${esc(g.youtube)}" target="_blank" rel="noopener">チャンネル</a> ${fmt(g.ytSubscribers)}</span>` : ""}
       </div>
+      ${linksHtml(g)}${achHtml(g)}
       ${partnersHtml(g)}
     </div>`;
   }).join("");
 }
 
+function linksHtml(g){
+  const a = [];
+  if (g.schedule) a.push(`<a href="${esc(g.schedule)}" target="_blank" rel="noopener">スケジュール</a>`);
+  if (g.website) a.push(`<a href="${esc(g.website)}" target="_blank" rel="noopener">公式HP</a>`);
+  return a.length ? `<div class="links">${a.join("")}</div>` : "";
+}
+function achHtml(g){
+  const l = (g.achievements || []).filter(Boolean);
+  return l.length ? `<div class="ach"><b>主な実績</b><ul>${l.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>` : "";
+}
 function partnersHtml(g){
   if (!g.partners || !g.partners.length) return "";
   const byX = new Map(groups.map(h => [h.x.toLowerCase(), h]));
