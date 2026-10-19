@@ -1549,6 +1549,73 @@
       ],
       "youtube": null,
       "ytSubscribers": null
+    },
+    {
+      "type": "group",
+      "youtube": "https://www.youtube.com/@diavel-official",
+      "ytSubscribers": 4140,
+      "area": "大阪",
+      "name": "DIAVEL",
+      "x": "diavel_info",
+      "members": 7,
+      "formedYear": 2024,
+      "xFollowers": 6678,
+      "schedule": "https://timetr.ee/p/diavel",
+      "website": "https://if-factory.jp/artist/diavel/",
+      "topics": [
+        "「アナタと堕ちる どこまでも」",
+        "IF FACTORY所属（カミサマパレードと同事務所）",
+        "神戸ハーバースタジオでワンマンツアー開催（2026年2月）"
+      ]
+    },
+    {
+      "type": "group",
+      "youtube": "https://www.youtube.com/@cocoro-syndrome",
+      "ytSubscribers": 2700,
+      "area": "大阪",
+      "name": "ココロシンドローム",
+      "x": "cocoro_syndrome",
+      "members": null,
+      "formedYear": 2023,
+      "xFollowers": 4358,
+      "schedule": "https://timetr.ee/p/cocoro_syndrome",
+      "website": "https://lit.link/CocoroSyndrome",
+      "topics": [
+        "「心の感情を歌う。」",
+        "妹分グループのオーディションを実施"
+      ]
+    },
+    {
+      "type": "group",
+      "youtube": null,
+      "ytSubscribers": null,
+      "area": "大阪",
+      "name": "husky",
+      "x": "husky_idol",
+      "members": 6,
+      "formedYear": 2017,
+      "xFollowers": 6474,
+      "website": "https://xn--nckxa9duj.site/",
+      "topics": [
+        "大阪アメ村発のラウドアイドル",
+        "2025/1/1発売のメジャー作品でオリコンデイリー1位",
+        "2024/8/24 GORILLA HALLワンマンでアイドル史上最高動員数を記録"
+      ]
+    },
+    {
+      "type": "group",
+      "youtube": null,
+      "ytSubscribers": null,
+      "area": "大阪",
+      "name": "神薙-時うさぎ-",
+      "x": "Tokiusagi_info",
+      "members": 5,
+      "formedYear": 2022,
+      "xFollowers": 3664,
+      "website": "https://kannagi-tokiusagi.com",
+      "topics": [
+        "「時と和をコンセプトにした天女アイドル」"
+      ]
     }
   ]
 }
