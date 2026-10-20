@@ -224,7 +224,8 @@
       "topics": [
         "Zepp Namba・BIGCATでの開催実績あり（名古屋ReNYも開催）",
         "「ギャップ」を楽しむアイドル"
-      ]
+      ],
+      "agency": "SCOT"
     },
     {
       "type": "group",
@@ -315,7 +316,8 @@
       "formedYear": 2019,
       "xFollowers": 1775,
       "ytSubscribers": 886,
-      "schedule": "https://timetreeapp.com/public_calendars/mikenekoschedule"
+      "schedule": "https://timetreeapp.com/public_calendars/mikenekoschedule",
+      "agency": "ミケネコカンパニー"
     },
     {
       "type": "group",
@@ -443,7 +445,8 @@
       "topics": [
         "大阪拠点の中高生アイドル",
         "ラジオ関西「ガルステッ！」出演"
-      ]
+      ],
+      "agency": "SOULEDGE PROMOTION"
     },
     {
       "type": "group",
@@ -554,7 +557,8 @@
       "topics": [
         "2026年9月にバナナホールでデビュー"
       ],
-      "website": "https://lit.link/alonys_official"
+      "website": "https://lit.link/alonys_official",
+      "agency": "ST-TRADE"
     },
     {
       "type": "group",
@@ -656,7 +660,8 @@
       "schedule": "https://timetr.ee/p/s1220",
       "topics": [
         "「あなたと紡ぐ、未来への小夜曲」。世良小春プロデュース"
-      ]
+      ],
+      "agency": "カラフルプロモーション"
     },
     {
       "type": "group",
@@ -705,7 +710,8 @@
       "topics": [
         "たこ焼きアイドル",
         "大阪24区のグループ展開（にぃよん！・リトルシェノンなど）"
-      ]
+      ],
+      "agency": "サウンドルーツ"
     },
     {
       "type": "group",
@@ -908,7 +914,8 @@
       "topics": [
         "「プラネット戦士」がコンセプト",
         "バナナホールで2周年ワンマン開催"
-      ]
+      ],
+      "agency": "おおきにエンターテインメント"
     },
     {
       "type": "group",
@@ -972,7 +979,8 @@
       "topics": [
         "「感情や雑音を大切に、人生にそっと手を添える音楽」"
       ],
-      "website": "https://lit.link/itsuyoru"
+      "website": "https://lit.link/itsuyoru",
+      "agency": "パスゲート"
     },
     {
       "type": "group",
@@ -1004,7 +1012,8 @@
         "大阪7人組",
         "全楽曲Trailerを公開"
       ],
-      "website": "https://lit.link/aquariumu"
+      "website": "https://lit.link/aquariumu",
+      "agency": "フレッサ"
     },
     {
       "type": "group",
@@ -1019,7 +1028,8 @@
       "topics": [
         "「点と線が交わる場所」"
       ],
-      "website": "https://lit.link/linixline"
+      "website": "https://lit.link/linixline",
+      "agency": "BACK YARD PROMOTION"
     },
     {
       "type": "group",
@@ -1115,7 +1125,8 @@
       "topics": [
         "「火花散らす閃光ポップ」5人組"
       ],
-      "website": "https://lit.link/hbn187"
+      "website": "https://lit.link/hbn187",
+      "agency": "PLAYPIT"
     },
     {
       "type": "group",
@@ -1127,7 +1138,8 @@
       "formedYear": 2018,
       "xFollowers": 8472,
       "ytSubscribers": 10700,
-      "website": "https://lit.link/klkl"
+      "website": "https://lit.link/klkl",
+      "agency": "we-B studios"
     },
     {
       "type": "group",
@@ -1156,7 +1168,8 @@
         "2024年2月4日デビュー",
         "「君とのキョリは0ミリメートル」"
       ],
-      "website": "https://lit.link/zerokyori"
+      "website": "https://lit.link/zerokyori",
+      "agency": "Lady Soul"
     },
     {
       "type": "group",
@@ -1170,7 +1183,8 @@
       "ytSubscribers": 48100,
       "topics": [
         "「いつだって救う」。サブスク配信中"
-      ]
+      ],
+      "agency": "Top Athlete Records"
     },
     {
       "type": "group",
@@ -1232,7 +1246,8 @@
       "topics": [
         "全国18都市ツアーを開催"
       ],
-      "website": "https://lit.link/quubi"
+      "website": "https://lit.link/quubi",
+      "agency": "KiTSUNE WORKS"
     },
     {
       "type": "group",
@@ -1293,7 +1308,8 @@
       "topics": [
         "2025年2月24日デビュー",
         "サブスク配信中"
-      ]
+      ],
+      "agency": "Top Athlete Records"
     },
     {
       "type": "group",
@@ -1321,7 +1337,8 @@
       "xFollowers": 2982,
       "ytSubscribers": 822,
       "schedule": "https://timetreeapp.com/public_calendars/neterudialive",
-      "website": "https://lit.link/neterudia"
+      "website": "https://lit.link/neterudia",
+      "agency": "HapinomaSOUND"
     },
     {
       "type": "group",
@@ -1365,7 +1382,8 @@
       "schedule": "https://timetreeapp.com/public_calendars/piriri",
       "topics": [
         "2026年6月19日デビュー"
-      ]
+      ],
+      "agency": "SCOT"
     },
     {
       "type": "group",
@@ -1564,7 +1582,8 @@
       "topics": [
         "Electronica Citypop"
       ],
-      "website": "https://lit.link/spiritwalker"
+      "website": "https://lit.link/spiritwalker",
+      "agency": "Spiritwalker Production"
     },
     {
       "type": "group",
@@ -1719,7 +1738,8 @@
       "topics": [
         "「関西最強のロックアイドルグループ」",
         "恐竜がテーマ。アイドル界のてっぺんを目指す"
-      ]
+      ],
+      "agency": "レゼルプロダクション"
     },
     {
       "type": "group",
@@ -1735,7 +1755,8 @@
       "topics": [
         "2025年5月6日 大阪でデビュー",
         "大阪代表ROCK IDOL"
-      ]
+      ],
+      "agency": "TRY CROSS"
     },
     {
       "type": "group",
