@@ -33,7 +33,8 @@
         "姫路城の別名「白鷺城」から名付けた姫路のご当地アイドル",
         "ハーモニー曲や各曲のハモリが魅力"
       ],
-      "website": "https://lit.link/wtegret"
+      "website": "https://lit.link/wtegret",
+      "agency": "HOP（姫路）"
     },
     {
       "type": "group",
@@ -105,7 +106,8 @@
       "formedYear": 2017,
       "xFollowers": 10000,
       "ytSubscribers": 5920,
-      "website": "http://mme.tokyo/w"
+      "website": "http://mme.tokyo/w",
+      "agency": "ミントミュージックエンターテイメント"
     },
     {
       "type": "group",
@@ -121,7 +123,8 @@
       "topics": [
         "「ありのままの姿で世界を救う魔法少女」"
       ],
-      "website": "https://lit.link/meluq"
+      "website": "https://lit.link/meluq",
+      "agency": "リングプロダクション"
     },
     {
       "type": "group",
@@ -247,7 +250,8 @@
       "topics": [
         "「きみとこれから先の話の続きを描きたい」"
       ],
-      "website": "https://lit.link/cleomery"
+      "website": "https://lit.link/cleomery",
+      "agency": "パニパワークス"
     },
     {
       "type": "group",
@@ -263,7 +267,8 @@
       "topics": [
         "2026年2月3日にBIGCATでデビュー（BIR初の大阪グループ）"
       ],
-      "website": "https://lit.link/kanjosen_0203"
+      "website": "https://lit.link/kanjosen_0203",
+      "agency": "BIR"
     },
     {
       "type": "group",
@@ -335,7 +340,8 @@
       "website": "https://mme.tokyo/98percent",
       "topics": [
         "「残り2%はあなたと作る」。2026年4月デビュー"
-      ]
+      ],
+      "agency": "ミントミュージックエンターテイメント"
     },
     {
       "type": "group",
@@ -396,7 +402,8 @@
       "website": "https://emmstudio.jp/bugtte",
       "topics": [
         "バグかわロックアイドル。2026/8/31再始動"
-      ]
+      ],
+      "agency": "emm studio"
     },
     {
       "type": "group",
@@ -412,7 +419,8 @@
       "website": "https://emmstudio.jp/hoshitsumo",
       "topics": [
         "2026/8/31 梅田amHALLでデビュー"
-      ]
+      ],
+      "agency": "emm studio"
     },
     {
       "type": "group",
@@ -457,7 +465,8 @@
       "topics": [
         "テーマパークがコンセプト（2025年12月デビュー）"
       ],
-      "website": "https://lit.link/onemuse"
+      "website": "https://lit.link/onemuse",
+      "agency": "hapiusa works"
     },
     {
       "type": "group",
@@ -548,7 +557,8 @@
       "xFollowers": 3411,
       "ytSubscribers": 431,
       "schedule": "https://timetr.ee/p/aimia_idol",
-      "website": "https://aimia.jp"
+      "website": "https://aimia.jp",
+      "agency": "リングプロダクション"
     },
     {
       "type": "group",
@@ -576,7 +586,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 360,
-      "ytSubscribers": 120
+      "ytSubscribers": 120,
+      "agency": "Hi-Fi GIRLs PROJECT（ASOBISYSTEM）"
     },
     {
       "type": "group",
@@ -587,7 +598,8 @@
       "members": null,
       "formedYear": 2026,
       "xFollowers": 370,
-      "ytSubscribers": 225
+      "ytSubscribers": 225,
+      "agency": "Hi-Fi GIRLs PROJECT（ASOBISYSTEM）"
     },
     {
       "type": "group",
@@ -601,7 +613,8 @@
       "ytSubscribers": 43,
       "topics": [
         "mint練習生グループ"
-      ]
+      ],
+      "agency": "ミントミュージックエンターテイメント"
     },
     {
       "type": "group",
@@ -617,7 +630,8 @@
         "ハイパーメロウポップ。野田駅発のグループ",
         "2026年1月16日にRe:Startデビュー"
       ],
-      "website": "https://lit.link/nodayofficial2"
+      "website": "https://lit.link/nodayofficial2",
+      "agency": "松田ミュージックラボ"
     },
     {
       "type": "group",
@@ -751,7 +765,8 @@
         "国交省「C to Sea プロジェクト」ご当地アンバサダー（神戸）",
         "ハチ・ハチ北スキー場公式アンバサダー"
       ],
-      "website": "https://lit.link/himejiKRD8"
+      "website": "https://lit.link/himejiKRD8",
+      "agency": "HOP（姫路）"
     },
     {
       "type": "group",
@@ -782,7 +797,8 @@
       "website": "https://mme.tokyo/space-planexia",
       "topics": [
         "2025年5月18日デビュー"
-      ]
+      ],
+      "agency": "ミントミュージックエンターテイメント"
     },
     {
       "type": "group",
@@ -887,7 +903,8 @@
       "website": "https://reve-ent.com/bemylove",
       "topics": [
         "「明日誰かの好きになる。」関西拠点の王道アイドル"
-      ]
+      ],
+      "agency": "Reve Entertainment"
     },
     {
       "type": "group",
@@ -902,7 +919,8 @@
       "schedule": "https://timetr.ee/p/bksk_official",
       "topics": [
         "「楽曲最強！！」"
-      ]
+      ],
+      "agency": "AJ Records"
     },
     {
       "type": "group",
@@ -1144,7 +1162,8 @@
       "topics": [
         "GAME × ROCK × IDOL。2023年5月アメリカ村BEYONDでデビュー"
       ],
-      "website": "https://lit.link/azon"
+      "website": "https://lit.link/azon",
+      "agency": "パニパワークス"
     },
     {
       "type": "group",
@@ -1413,7 +1432,8 @@
       "schedule": "https://himeji-krd24pt.com/schedule",
       "topics": [
         "KRD8・WT☆Egretを擁するHOPグループのユニット"
-      ]
+      ],
+      "agency": "HOP（姫路）"
     },
     {
       "type": "group",
@@ -1533,7 +1553,8 @@
         "2026年2月25日 梅田バナナホールで新体制1stワンマン",
         "「アナタを誘う 秘密のパレード」",
         "IF FACTORY所属"
-      ]
+      ],
+      "agency": "IF FACTORY"
     },
     {
       "type": "group",
@@ -1566,7 +1587,8 @@
         "「アナタと堕ちる どこまでも」",
         "IF FACTORY所属（カミサマパレードと同事務所）",
         "神戸ハーバースタジオでワンマンツアー開催（2026年2月）"
-      ]
+      ],
+      "agency": "IF FACTORY"
     },
     {
       "type": "group",
@@ -1583,7 +1605,8 @@
       "topics": [
         "「心の感情を歌う。」",
         "妹分グループのオーディションを実施"
-      ]
+      ],
+      "agency": "MAGIMAGI"
     },
     {
       "type": "group",
@@ -1632,7 +1655,8 @@
       "topics": [
         "「死にたい僕たち、死にたい君たち」",
         "ココロシンドロームと同じMAGIMAGI所属"
-      ]
+      ],
+      "agency": "MAGIMAGI"
     },
     {
       "type": "group",
@@ -1648,7 +1672,8 @@
       "topics": [
         "エモーショナルロックアイドル",
         "初ワンマンを開催（2024年12月9日）"
-      ]
+      ],
+      "agency": "TMY production"
     },
     {
       "type": "group",
@@ -1698,6 +1723,40 @@
         "2026年10月1日デビュー",
         "「アナタと刻む 最期の夢」",
         "IF FACTORY所属（カミサマパレード・DIAVELと同事務所）"
+      ],
+      "agency": "IF FACTORY"
+    },
+    {
+      "type": "group",
+      "youtube": null,
+      "ytSubscribers": null,
+      "area": "大阪",
+      "members": null,
+      "name": "おちゃメンタル☆パーティー",
+      "x": "ochamental",
+      "formedYear": 2021,
+      "xFollowers": 9948,
+      "website": "https://ochamentalparty.com",
+      "topics": [
+        "Zepp Namba 4周年ワンマン満員御礼（2025年3月）",
+        "なんばHatchで5周年ワンマン（2026年3月）",
+        "「騒いで！はしゃいで！全力で楽しむ！！」生歌100%"
+      ]
+    },
+    {
+      "type": "group",
+      "youtube": null,
+      "ytSubscribers": null,
+      "area": "大阪",
+      "members": null,
+      "name": "シンセカイヒーロー",
+      "x": "shinsekaihero",
+      "formedYear": 2019,
+      "xFollowers": 122000,
+      "agency": "シンセカイプロモーション",
+      "website": "https://escalier.jp/osaka/",
+      "topics": [
+        "大阪ミナミの常設劇場と道頓堀グリ下で観覧無料の定期公演"
       ]
     }
   ]
