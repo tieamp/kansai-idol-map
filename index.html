@@ -182,7 +182,7 @@ function render(){
   }
   let prevArea = null, n = 0;
   const filtered = area || q || agencyFilter;
-  const bar0 = filtered ? `<div class="area-h" style="margin-top:6px">${esc(agencyFilter ? "事務所：" + agencyFilter : (area || "検索結果"))}<small>${list.length}組${(area || agencyFilter) && q ? "（「" + esc(q) + "」で絞り込み）" : ""}</small>${agencyFilter ? ' <a href="#" data-agclear style="font-size:12px;margin-left:6px">解除</a>' : ""}</div>` : "";
+  const bar0 = filtered ? `<div class="area-h" style="margin-top:6px">${esc(agencyFilter ? "事務所：" + agencyFilter : (area || "検索結果"))}<small>${list.length}組${(area || agencyFilter) && q ? "（「" + esc(q) + "」で絞り込み）" : ""}</small>${agencyFilter ? ' <a href="#" data-agclear style="display:inline-block;font-size:13px;font-weight:700;margin-left:10px;padding:4px 12px;border-radius:999px;background:#e5484d;color:#fff;text-decoration:none;vertical-align:middle">✕ 事務所の絞り込みを解除</a>' : ""}</div>` : "";
   el.innerHTML = bar0 + list.map((g,i) => {
     const byArea = sort === "area";
     let head = "";
