@@ -81,6 +81,8 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
   <h1>関西アイドルマップ</h1>
   <p class="lead">ファンの情報提供で作る、関西のアイドル一覧。Xの公式アカウントがあるグループ・ソロアイドルが対象です。</p>
 
+  <button id="copyurl" type="button" style="display:inline-block;margin:0 0 14px;padding:8px 16px;border-radius:999px;border:2px solid var(--line);background:var(--card);color:var(--text);font-weight:700;font-size:13px;cursor:pointer">🔗 このサイトのURLをコピー</button>
+
   <div class="tabs" role="tablist">
     <button class="tab on" data-type="group" role="tab">グループ部門<small id="nGroup">0</small></button>
     <button class="tab" data-type="solo" role="tab">ソロ部門<small id="nSolo">0</small></button>
@@ -269,6 +271,16 @@ document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () =>
   document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t === b));
   render();
 }));
+document.getElementById("copyurl").addEventListener("click", async function(){
+  const url = location.origin + location.pathname, b = this;
+  let ok = false;
+  try { await navigator.clipboard.writeText(url); ok = true; } catch(e){}
+  if (!ok){
+    try { const t = document.createElement("textarea"); t.value = url; t.style.position = "fixed"; t.style.opacity = "0"; document.body.appendChild(t); t.select(); t.setSelectionRange(0, 9999); ok = document.execCommand("copy"); t.remove(); } catch(e){}
+  }
+  if (!ok){ window.prompt("URLをコピーしてください", url); return; }
+  b.textContent = "✓ コピーしました"; setTimeout(() => { b.textContent = "🔗 このサイトのURLをコピー"; }, 1800);
+});
 </script>
 </body>
 </html>
