@@ -1477,6 +1477,31 @@
       "ytSubscribers": null,
       "website": "https://nil-idol.info",
       "agency": "NO MISS RECORDS"
+    },
+    {
+      "type": "group",
+      "name": "妖狐繚乱",
+      "x": "yokoryoran_info",
+      "youtube": "https://www.youtube.com/@%E5%A6%96%E7%8B%90%E7%B9%9A%E4%B9%B1%E5%85%AC%E5%BC%8F",
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2025,
+      "xFollowers": 1189,
+      "ytSubscribers": 251,
+      "website": "https://lit.link/yokoryoran317",
+      "agency": "uniプロダクション"
+    },
+    {
+      "type": "group",
+      "name": "LΩPARA",
+      "x": "LOPARA_official",
+      "youtube": "https://www.youtube.com/@LOPARA_official",
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2024,
+      "xFollowers": 1544,
+      "ytSubscribers": 453,
+      "website": "https://lopara.fanpla.jp"
     }
   ]
 }
