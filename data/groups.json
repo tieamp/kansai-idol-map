@@ -1502,6 +1502,18 @@
       "xFollowers": 1544,
       "ytSubscribers": 453,
       "website": "https://lopara.fanpla.jp"
+    },
+    {
+      "type": "group",
+      "name": "sustain",
+      "x": "sustain_idol",
+      "youtube": null,
+      "area": "大阪",
+      "members": 2,
+      "formedYear": 2020,
+      "xFollowers": 2065,
+      "ytSubscribers": null,
+      "website": "https://sustain-music.net"
     }
   ]
 }
