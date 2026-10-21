@@ -1464,6 +1464,19 @@
       "xFollowers": 122000,
       "agency": "シンセカイプロモーション",
       "website": "https://escalier.jp/osaka/"
+    },
+    {
+      "type": "group",
+      "name": "NiL",
+      "x": "NiL_idol",
+      "youtube": null,
+      "area": "大阪",
+      "members": 5,
+      "formedYear": 2022,
+      "xFollowers": 2609,
+      "ytSubscribers": null,
+      "website": "https://nil-idol.info",
+      "agency": "NO MISS RECORDS"
     }
   ]
 }
