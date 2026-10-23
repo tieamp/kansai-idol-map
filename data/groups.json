@@ -1514,6 +1514,31 @@
       "xFollowers": 2065,
       "ytSubscribers": null,
       "website": "https://sustain-music.net"
+    },
+    {
+      "type": "group",
+      "name": "LuvHz",
+      "x": "7uvHz",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2025,
+      "xFollowers": 2309,
+      "ytSubscribers": null,
+      "website": "https://lit.link/luvhz0731",
+      "agency": "Neon Sign"
+    },
+    {
+      "type": "group",
+      "name": "抜けてるくらいがちょうどいい",
+      "x": "nukegachi_info",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2026,
+      "xFollowers": 2143,
+      "ytSubscribers": null,
+      "website": "https://lit.link/NUKEGACHI"
     }
   ]
 }
