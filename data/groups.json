@@ -1539,6 +1539,55 @@
       "xFollowers": 2143,
       "ytSubscribers": null,
       "website": "https://lit.link/NUKEGACHI"
+    },
+    {
+      "type": "group",
+      "name": "むげんこんぜ",
+      "x": "comze_FPE",
+      "youtube": null,
+      "area": "大阪",
+      "members": 7,
+      "formedYear": 2025,
+      "xFollowers": 2076,
+      "ytSubscribers": null,
+      "agency": "Fate Piece Entertainments"
+    },
+    {
+      "type": "group",
+      "name": "マイフェアガ→ル",
+      "x": "MYFAIRGIRL_INFO",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2021,
+      "xFollowers": 1546,
+      "ytSubscribers": null,
+      "website": "https://myfairgirl.ryzm.jp"
+    },
+    {
+      "type": "group",
+      "name": "めいてん",
+      "x": "meiten_info",
+      "youtube": "https://www.youtube.com/@meiten_official",
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2023,
+      "xFollowers": 2008,
+      "ytSubscribers": 1100,
+      "website": "https://lit.link/meiteninfo"
+    },
+    {
+      "type": "group",
+      "name": "seepriz",
+      "x": "_seepriz_",
+      "youtube": null,
+      "area": "大阪",
+      "members": 3,
+      "formedYear": 2024,
+      "xFollowers": 1137,
+      "ytSubscribers": null,
+      "schedule": "https://timetr.ee/p/_seepriz_",
+      "agency": "SCRUM ENTERTAINMENT"
     }
   ]
 }
