@@ -424,11 +424,12 @@
       "x": "matatabi_info_",
       "youtube": null,
       "area": "大阪",
-      "members": null,
+      "members": 4,
       "formedYear": 2026,
-      "xFollowers": 1104,
+      "xFollowers": 1148,
       "ytSubscribers": null,
-      "schedule": "https://timetreeapp.com/public_calendars/matatabi_info_"
+      "schedule": "https://timetreeapp.com/public_calendars/matatabi_info_",
+      "website": "https://lit.link/matatabiinfo"
     },
     {
       "type": "group",
