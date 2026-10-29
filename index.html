@@ -106,6 +106,10 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
       <option value="year">活動歴が長い順</option>
       <option value="area">都道府県順</option>
     </select>
+    <select id="dir" aria-label="並び順の向き">
+      <option value="desc">降順（多い・長い順）</option>
+      <option value="asc">昇順（少ない・短い順）</option>
+    </select>
   </div>
   <p style="margin:0 0 14px"><a class="btn" id="submit" href="#">＋ グループを教える / 情報を更新する</a></p>
 
@@ -153,6 +157,22 @@ const sorters = {
   year: (a,b) => (a.formedYear||9999) - (b.formedYear||9999)
 };
 
+const sortVal = {
+  score: g => score(g), x: g => g.xFollowers, yt: g => g.ytSubscribers,
+  members: g => g.members, year: g => g.formedYear ? new Date().getFullYear() - g.formedYear : null
+};
+function sortList(list, sort, dir){
+  if (dir !== "asc") return list.sort(sorters[sort]);
+  if (sort === "area") return list.sort((a,b) => areaIdx(b) - areaIdx(a) || score(a) - score(b));
+  const f = sortVal[sort];
+  return list.sort((a,b) => {
+    const va = f(a), vb = f(b);
+    if (va == null && vb == null) return 0;
+    if (va == null) return 1;
+    if (vb == null) return -1;
+    return va - vb;
+  });
+}
 let agencyFilter = "";
 function render(){
   const q = document.getElementById("q").value.trim().toLowerCase();
@@ -175,7 +195,8 @@ function render(){
     .filter(g => !area || g.area === area)
     .filter(g => !agencyFilter || g.agency === agencyFilter)
     .filter(g => !q || g.name.toLowerCase().includes(q) || g.x.toLowerCase().includes(q) || (g.agency || "").toLowerCase().includes(q))
-    .sort(sorters[sort]);
+    ;
+  sortList(list, sort, document.getElementById("dir").value);
   const max = Math.max(1, ...list.map(score));
   const el = document.getElementById("list");
   if (!list.length){
@@ -266,7 +287,7 @@ document.getElementById("list").addEventListener("click", e => {
   openSet.has(x) ? openSet.delete(x) : openSet.add(x);
   it.classList.toggle("open");
 });
-["q","area","sort"].forEach(id => document.getElementById(id).addEventListener("input", render));
+["q","area","sort","dir"].forEach(id => document.getElementById(id).addEventListener("input", render));
 document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
   currentType = b.dataset.type;
   document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t === b));
