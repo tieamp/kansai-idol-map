@@ -1589,6 +1589,31 @@
       "ytSubscribers": null,
       "schedule": "https://timetr.ee/p/_seepriz_",
       "agency": "SCRUM ENTERTAINMENT"
+    },
+    {
+      "type": "group",
+      "name": "GRINOAH",
+      "x": "grinoahofficial",
+      "youtube": null,
+      "area": "大阪",
+      "members": 5,
+      "formedYear": 2026,
+      "xFollowers": 584,
+      "ytSubscribers": null,
+      "website": "https://timetreeapp.com/public_calendars/grimo_official",
+      "agency": "SCRUM ENTERTAINMENT"
+    },
+    {
+      "type": "group",
+      "name": "GΛLNØA",
+      "x": "GALNOA_OFFICIAL",
+      "youtube": null,
+      "area": "大阪",
+      "members": 2,
+      "formedYear": 2026,
+      "xFollowers": 825,
+      "ytSubscribers": null,
+      "website": "https://lit.link/galnoa"
     }
   ]
 }
