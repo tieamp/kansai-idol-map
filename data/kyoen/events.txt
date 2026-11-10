@@ -1,0 +1,185 @@
+# date|eventernote_id|title|venue|pref|acts
+2026-10-31|496703|PASSGATE pre. 『PASSUP』 (2026/10/31)|梅田バナナホール|大阪|tune time capsule/感情線は時をこえて/Merry Mellow/NEO BREAK/ワッツ◎さーくる/Qu♡Aly/ЯiM:MiR/#BEMYLOVE/#PANnana/大阪24区ガールズ/にぃよん！/なにわぱれっと/anemoreel/リボンのないぷれぜんと/ParaMilia/ChanceMovement/Fille mimi/超★NOVA24’/POLARiS
+2026-10-31|498259|みんがる HALLOWEEN 《NIGHT》|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/AI♡RARA/あおぞらをキミに/SANSEI '26
+2026-10-31|498258|みんがる HALLOWEEN 《DAY》|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/AI♡RARA/あおぞらをキミに/SANSEI '26
+2026-10-31|496593|JINKS presents Road to DRUM LOGOS #5「Link to The New Day」|アメリカ村FANJ twice|大阪|JINKS/LΩPARA/スキトオルアオ
+2026-10-31|495855|Palette Parade主催対バン『MAKE SOME PARADE』|OSAKA MUSE|大阪|Palette Parade/Kolokol/YOLOZ
+2026-10-31|497235|IDOORLOVES -HALLOWEEN PARTY- (2026/10/31)|心斎橋SUNHALL|大阪|アクリム/AIMIA/ELEVYZ/ENVY PARANOID/KAMuRO/GΛLNØA/感情線は時をこえて/神薙-時うさぎ-/CRYZ/cleomery/CØCØRIZE/CYCLONISTA/Charlotte/ディノゾール/鳴ル神/MAGMAZ/matatabi/Lyrical Pop Paradox/LØISLOID/LΩPARA/POLARiS
+2026-10-31|496245|MALLOW POP -ハロウィン SP-|アメリカ村FANJ twice|大阪|tune time capsule/Merry Mellow/スキトオルアオ/Qu♡Aly/NEO BREAK/POLARiS
+2026-10-29|496674|Trick or Treat|OSAKA MUSE|大阪|PURE ME/AIWO/XINXIN/Quubi/ジエメイ
+2026-10-29|493391|もくもくアイドルNight(2026/10/29)|ヨドバシ梅田 LINKS広場|大阪|キューハチパーセント！/宇宙∞プラネクシア
+2026-10-29|490300|『.LiNIXlight - 光為線交 - VOL.3』 Halloween SP|Yogibo HOLY MOUNTAIN|大阪|Axelight/.LiNⅨLiNE.
+2026-10-26|496726|ナナコロビヤオキ主催ライブ『ナナコロ万博』（2026/10/26）|心斎橋BIGCAT|大阪|宇宙∞プラネクシア/W.ダブルヴィー/ヒロインズ研究生大阪/Qu♡Aly/ナナコロビヤオキ/すーぱーぷーばぁー!!
+2026-10-24|494503|君と見るそら主催対バン 『BLUE PRELUDE vol.2』|Yogibo META VALLEY|大阪|すーぱーぷーばぁー!!/君と見るそら/アクアリウム。/image/Qu♡Aly/ЯiM:MiR
+2026-10-24|495533|PASSGATE pre. 『PASSUP』 2026/10/24|心斎橋SUNHALL|大阪|すべての瞬間は君だった。/いつかの夜に僕たちが、/宇宙∞プラネクシア/エイアイカ/おちゃメンタル☆パーティー/感情線は時をこえて/キミだけの花言葉/キューハチパーセント！/サクヤコノハナ/スキトオルアオ/W.ダブルヴィー/脳内パステル/プエラの絶対値/ラフティア/anemoreel/Blueberry Girls/LAST PiECE/MeluCharm/tune time capsule/Fille mimi/シンデレラ宣言！/シュレーディンガーの犬
+2026-10-24|494505|アムホール41周年ライブ|大阪RUIDO|大阪|tune time capsule/NEO BREAK/ワッツ◎さーくる/宇宙∞プラネクシア/LAST PiECE/anemoreel/W.ダブルヴィー/#PANnana/サクヤコノハナ/おちゃメンタル☆パーティー
+2026-10-23|493632|#ﾆｷﾌﾟﾚ「オオサカッ!! 2026.10.23」|心斎橋ANIMA|大阪|.LiNⅨLiNE./meluQ/PASTEL RADIO/RePLAY
+2026-10-23|495532|エイアイ界隈〜 Road to LIQUID!!! 〜 vol.8 大阪編|福島LIVE SQUARE 2nd LINE|大阪|エイアイカ/ラフティア/Merry Mellow/感情線は時をこえて
+2026-10-22|494133|IDO-LIVE!! (2026/10/22)|心斎橋Music Club JANUS|大阪|Axelight/Kolokol/.LiNⅨLiNE./RePLAY/ジエメイ/KRD8
+2026-10-22|493385|もくもくアイドルNight(2026/10/22)|ヨドバシ梅田 LINKS広場|大阪|AI♡RARA/W.ダブルヴィー
+2026-10-22|461330|#ﾆｷﾌﾟﾚ『オオサカｯ!! -20261022-』|大阪府内各所（サーキット）|大阪|Charlotte/CYCLONISTA/ENVY PARANOID/LØISLOID/LUVRiX/matatabi/meluQ/Merry Mellow/PASTEL RADIO/PURE ME/9DayzGlitchClubTokyo/大阪☆春夏秋冬/宇宙∞プラネクシア
+2026-10-21|341992|RePLAY新体制東名阪ツアー「RIOT」大阪編|心斎橋ANIMA|大阪|RePLAY/HIBANA/.LiNⅨLiNE./Axelight
+2026-10-21|493217|ノースサウンド祭　ハロウィン公演|GORILLA HALL OSAKA|大阪|カラフルスクリーム/すーぱーぷーばぁー!!/tune time capsule/ぴゅあふるすくりーむ
+2026-10-21|494496|超 HABATAKE! IDOL!!|心斎橋BIGCAT|大阪|W.ダブルヴィー/脳内パステル/ЯiM:MiR/WT☆Egret/グットクルー/Qu♡Aly/サクヤコノハナ
+2026-10-21|451800|宇宙∞プラネクシア定期公演 vol.14|梅田amHALL|大阪|宇宙∞プラネクシア/ちょこみんと
+2026-10-19|496214|HABATAKE! IDOL!! Vol.29|梅田amHALL|大阪|tune time capsule/グットクルー/AI♡RARA/Qu♡Aly/ЯiM:MiR
+2026-10-19|490457|カラフルスクリーム あいな生誕祭|梅田バナナホール|大阪|カラフルスクリーム/すーぱーぷーばぁー!!
+2026-10-18|494653|Drawry.主催イベント「build a family in Osaka」|心斎橋CONPASS|大阪|Drawry./くぴぽ/0番線と夜明け前/meluQ/cleomery
+2026-10-18|497233|こぐまカリー主催「BEAR CUB CLUB」 20261018|心斎橋CONPASS|大阪|感情線は時をこえて/cleomery/東京妄想地図/MID POP/YOUR ADVISORY BOARD/LOOPARADE
+2026-10-18|496240|推し活すっきゃねんふぇす(2026/10/18)|大阪府内各所（サーキット）|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/AI♡RARA/あおぞらをキミに/COzMICぱれーど/Qu♡Aly/すーぱーぷーばぁー!!/てんぽぷりも♪/なにわぱれっと/にぃよん！/Hello♡DayDream!/ハピネスクラッカー！/#BEMYLOVE/+Alpha/Poifull/Morpho/ボクセカ/ЯiM:MiR/SANUGLOW/ChanceMovement/SPRISE/NEO BREAK/ParaMilia/Lumi Prima/ワッツ◎さーくる
+2026-10-17|495422|こぐまカリー主催「Spice it Up」 (2026.10.17)|心斎橋CONPASS|大阪|美味しい贖罪/棘-おどろ-/感情線は時をこえて/KiMiNiAiTAi/くぴぽ/cleomery/スワンスワンズ/demipogune/東京妄想地図/Drawry./MID POP/meluQ/YOUR ADVISORY BOARD/LOOPARADE
+2026-10-17|496238|推し活すっきゃねんふぇす(2026/10/17)|大阪府内各所（サーキット）|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/AI♡RARA/あおぞらをキミに/COzMICぱれーど/Qu♡Aly/すーぱーぷーばぁー!!/てんぽぷりも♪/なにわぱれっと/にぃよん！/Hello♡DayDream!/ハピネスクラッカー！/#BEMYLOVE/+Alpha/Poifull/Morpho/ボクセカ/星もつもれば惑星となる！/ЯiM:MiR/anemoreel/キラピュアップ/tune time capsule/BUGTTE！/#PANnana
+2026-10-17|496215|NEO BREAK 佐野詩音生誕祭 (昼)|大阪RUIDO|大阪|tune time capsule/NEO BREAK/Qu♡Aly/ЯiM:MiR
+2026-10-17|496706|CHAOS CULTURE TRIBE|服部緑地野外音楽堂|大阪|花魁道中/Made in Maiden/絶望キネマ/めっ！/神様の言う通り/YA'ABURNEE/美味しい贖罪/DaTuRa-ダチュラ-/ココロシンドローム/デスキャンディ/白黒アリス/SolamenИte/DIAVEL/カミサマパレード/MIRA DOLL/StarAxis
+2026-10-16|496334|EBISUBASHI IDOL LIVE VOL.5|TSUTAYA EBISUBASHI|大阪|CLANCROWN/永遠のセツナ/ちょこみんと/大阪24区ガールズ/+Alpha/#PANnana
+2026-10-16|491197|COLOR of COLOR 東名阪対バンツアー【大阪公演】|OSAKA MUSE|大阪|COLOR of COLOR/すーぱーぷーばぁー!!/キューハチパーセント！
+2026-10-15|493417|UP-T FESTIVAL WEST Vol.2|心斎橋THE LIVE HOUSE soma|大阪|カラフルスクリーム/link start/イロハサクラ/すーぱーぷーばぁー!!/anemoreel/KRD8/WT☆Egret/KOBerrieS♪/大阪24区ガールズ/W.ダブルヴィー/CLANCROWN/宇宙∞プラネクシア
+2026-10-15|493389|もくもくアイドルNight(2026/10/15)|ヨドバシ梅田 LINKS広場|大阪|脳内パステル/あおぞらをキミに
+2026-10-14|494952|W.ダブルヴィー 大阪定期公演#79|梅田amHALL|大阪|W.ダブルヴィー/ちょこみんと
+2026-10-14|494487|tune time capsule presents　tune file vol.5|Yogibo META VALLEY|大阪|tune time capsule/Merry Mellow
+2026-10-14|493105|あかつきフェスmini vol.2|心斎橋ANIMA|大阪|Axelight/いつかの夜に僕たちが、/ELEVYZ/XINXIN/meluQ
+2026-10-12|496193|HABATAKE! IDOL!! EXTRA（2026/10/12）NIGHT|梅田amHALL|大阪|tune time capsule/スイモアマイモン！/Merry Mellow/NEO BREAK/Qu♡Aly/POLARiS
+2026-10-12|493375|MONSTER PIRATES TOUR 〜3船共航！〜|ESAKA MUSE|大阪|すーぱーぷーばぁー!!/ポジティブモンスター/グットクルー
+2026-10-12|493376|MONSTER PIRATES TOUR in 大阪(1部)|ESAKA MUSE|大阪|ポジティブモンスター/Fille mimi/#BEMYLOVE/HIGH SPY DOLL/Squall Line/超★NOVA24’/Nody/なにわぱれっと/SKILL of light/BABEL
+2026-10-12|493331|FOUR COLORS（2026/10/12）|梅田BANGBOO|大阪|すーぱーぷーばぁー!!/キューハチパーセント！/BUGTTE！/ЯiM:MiR
+2026-10-12|493372|HABATAKE! IDOL!! EXTRA【DAY】（2026/10/12）|梅田amHALL|大阪|宇宙∞プラネクシア/Qu♡Aly/NEO BREAK/SO.ON project OSAKA/グットクルー
+2026-10-11|496110|あおぞらをキミに 宇宙∞プラネクシア キューハチパーセント！フリーライブ|ヨドバシ梅田 LINKS広場|大阪|宇宙∞プラネクシア/キューハチパーセント！/あおぞらをキミに
+2026-10-10|496194|きゅ～ふぇす vol.2|梅田BANGBOO|大阪|tune time capsule/きゅ〜くる
+2026-10-10|496090|AsteRythm 茉宙みずき生誕祭 『まひろみ政権2026』|梅田amHALL|大阪|tune time capsule/AsteRythm/Fille mimi/caprice/NaNiYoRi/ミケネコガールズ/ボクセカ/CRYZ/うぃるめり！
+2026-10-10|499408|ATC ポップカルチャー学園 #18|大阪南港ATC 海辺のステージ|大阪|すーぱーぷーばぁー!!/ミケネコガールズ/アイディライト/ひろいんあっぷでーと/Milky Flower
+2026-10-08|495871|ワッツ◎さーくる 木曜定期公演vol.282|梅田amHALL|大阪|宇宙∞プラネクシア/ワッツ◎さーくる
+2026-10-08|493388|もくもくアイドルNight(2026/10/8)|ヨドバシ梅田 LINKS広場|大阪|W.ダブルヴィー/脳内パステル
+2026-10-06|492454|カラフルスクリーム あみ生誕祭|心斎橋BIGCAT|大阪|カラフルスクリーム/すーぱーぷーばぁー!!
+2026-10-05|491906|tune time capsule 朝日奈ちゅな 生誕祭|大阪RUIDO|大阪|tune time capsule/NEO BREAK
+2026-10-04|493102|IDO-LIVE!! (2026/10/04)|心斎橋Music Club JANUS|大阪|.LiNⅨLiNE./HATENO/ジエメイ/XINXIN/AIWO/アキストゼネコ/PURE ME/ディノゾール/クモリノチ。/Axelight/Kolokol/GigiL
+2026-10-03|494485|みんがる【DAY】（2026/10/3）|阿倍野ROCKTOWN|大阪|宇宙∞プラネクシア/Qu♡Aly/NEO BREAK/あおぞらをキミに/キューハチパーセント！/ワッツ◎さーくる/ちょこみんと
+2026-10-03|494486|みんがる【NIGHT】（2026/10/3）|阿倍野ROCKTOWN|大阪|宇宙∞プラネクシア/あおぞらをキミに/キューハチパーセント！/ちょこみんと
+2026-10-01|494767|「IDOL GATE in ESAKA SP」2026/10/1|ESAKA MUSE|大阪|感情線は時をこえて/Merry Mellow
+2026-10-01|493390|もくもくアイドルNight(2026/10/1)|ヨドバシ梅田 LINKS広場|大阪|あおぞらをキミに/キューハチパーセント！
+2026-11-30|495911|VIVID SOUND|なんばHatch|大阪|カラフルスクリーム/君に、胸キュン。/シンデレラ宣言！/手羽先センセーション/テンシンランマン/THE ENCORE/いつかの夜に僕たちが、/サクヤコノハナ/SPRISE/すべての瞬間は君だった。/W.ダブルヴィー/脳内パステル/ワッツ◎さーくる/あおぞらをキミに/あたまのなかは8ビット⁉︎/アブソプ/感情線は時をこえて/逆転ねこぱんちっ！/Secret Pinky/ナナコロビヤオキ/ヒロインズ研究生大阪/Velvet Soda Muse/星合いのライラック
+2026-11-29|497998|はばたけ！アイドルフェス NEXT(2026年11月29日)|テレビ大阪 本社|大阪|anemoreel/KAIJU ON THE STAGE/GΛLNØA/Qu♡Aly/キューハチパーセント！/COzMICぱれーど/スイモアマイモン！/スキトオルアオ/ツキナミ/てんぽぷりも♪/にぃよん！/#PANnana/PURE ME/Poifull/ほくりくアイドル部/ЯiM:MiR/tune time capsule
+2026-11-28|497996|はばたけ！アイドルフェス INテレビ大阪 vol.4 2部|テレビ大阪 本社|大阪|グットクルー/大阪24区ガールズ/いつかの夜に僕たちが、/おちゃメンタル☆パーティー/caprice
+2026-11-28||はばたけ！アイドルフェス INテレビ大阪 vol.4 1部（出演者は一部のみ取得）|テレビ大阪 本社|大阪|W.ダブルヴィー/すべての瞬間は君だった。/すーぱーぷーばぁー!!/宇宙∞プラネクシア/Fille mimi
+2026-11-27||THE FOOL(2026/11/27)|心斎橋SUNHALL|大阪|tune time capsule/カラフルスクリーム/JINKS/クモリノチ。/いつかの夜に僕たちが、/myojou/アキストゼネコ
+2026-11-26|499031|もくもくアイドルNight(2026/11/26)|ヨドバシ梅田 LINKS広場|大阪|キューハチパーセント！/W.ダブルヴィー
+2026-11-23|499407|ATCポップカルチャー学園 #19|大阪南港ATC 海辺のステージ|大阪|tune time capsule/Milky Flower/アイディライト/ひろいんあっぷでーと
+2026-11-23|499204|コスラジ2026 野外撮影会 11月23日 第1部|大阪城公園 太陽の広場|大阪|天空音パレード/LØISLOID
+2026-11-23|499203|コスラジ2026 野外撮影会 11月23日 第2部|大阪城公園 太陽の広場|大阪|すーぱーぷーばぁー!!/FLAPSTAR/LΩPARA
+2026-11-23|499388|IDOL THANKS NIGHT 〜キミがいるから明日も頑張れる〜|梅田amHALL|大阪|宇宙∞プラネクシア/脳内パステル/あおぞらをキミに/meluQ/PURE ME/NEO BREAK/サクヤコノハナ/ワッツ◎さーくる/すーぱーぷーばぁー!!
+2026-11-23|T527560a|mini TIF in Osaka Vol.16【1部】|Music Club JANUS|大阪|大阪24区ガールズ/caprice/スキトオルアオ/脳内パステル/#BEMYLOVE/まいどあり！
+2026-11-23|T527560b|mini TIF in Osaka Vol.16【2部】|Music Club JANUS|大阪|anemoreel/神薙-時うさぎ-/キューハチパーセント！/ボクセカ/WT☆Egret/ЯiM:MiR
+2026-11-21|499385|桃山学院大学 第66回桃山祭 アイドルイベント|桃山学院大学 和泉キャンパス|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/AI♡RARA/あおぞらをキミに
+2026-11-20|499286|絆(キズナ)presents 名阪交流戦vol.3|梅田バナナホール|大阪|W.ダブルヴィー/脳内パステル/あたまのなかは8ビット⁉︎/anemoreel/感情線は時をこえて/君に、胸キュン。/サクヤコノハナ/手羽先センセーション/ワッツ◎さーくる/ALONYS
+2026-11-19|499030|もくもくアイドルNight(2026/11/19)|ヨドバシ梅田 LINKS広場|大阪|キューハチパーセント！/ちょこみんと
+2026-11-18|498000|.LiNIXlight - 光為線交 - VOL.4|心斎橋ANIMA|大阪|Axelight/.LiNⅨLiNE.
+2026-11-15|499312|IDOL ∞ INFINITY OSAKA SP vol.2|十三GABU|大阪|AsIs/THE ENCORE/いつかの夜に僕たちが、/カラフルスクリーム/すべての瞬間は君だった。/SUGAR SPARK/なみだ色の消しごむ/ヒロインズ研究生大阪/ぴゅあふるすくりーむ/まいどあり！
+2026-11-15|499402|第8回チーズEXPO in 万博公園(2026/11/15)|万博記念公園 東の広場|大阪|宇宙∞プラネクシア/ひろいんあっぷでーと/てんぽぷりも♪/COzMICぱれーど/da-gashi☆/プラリオン/ネテルダイヤ/Fille mimi/CLANCROWN/キューハチパーセント！/SKILL of light/asterhythm⁂lumina/ミケネコガールズ/大阪24区ガールズ/ふぁんたす！/アイディライト
+2026-11-15|499693|花いろは ツアー大阪 感謝ライブ （11/15）|京橋LIVEHOUSE Arc|大阪|花いろは/One Last Bloom/KRD8
+2026-11-14|496233|mintリクエストアワー2026　1部|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/AI♡RARA/あおぞらをキミに
+2026-11-14|496234|mintリクエストアワー2026　2部|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/AI♡RARA/あおぞらをキミに
+2026-11-14|498073|GIRLS BOX VOL.296 in大阪 （2026/11/14）|Zepp Namba|大阪|One Last Bloom/サクヤコノハナ/Qu♡Aly/NEO BREAK/ЯiM:MiR/あくまで天使/anemoreel/大阪☆春夏秋冬/いつかの夜に僕たちが、
+2026-11-14|493404|三都共鳴　大阪公演|梅田バナナホール|大阪|AsIs/カラフルスクリーム/THE ENCORE
+2026-11-13|497590|なみだ色スクリーム|十三GABU|大阪|なみだ色の消しごむ/カラフルスクリーム
+2026-11-12|493332|Rock Idol Groovin' ~Band Edition 2026 Autumn~|アメリカ村FANJ twice|大阪|脳内パステル/宇宙∞プラネクシア/anemoreel/ChanceMovement
+2026-11-12|499032|もくもくアイドルNight(2026/11/12)|ヨドバシ梅田 LINKS広場|大阪|W.ダブルヴィー/あおぞらをキミに
+2026-11-11|497324|Weekday session 〜超天神祭2026直前SP〜|心斎橋ANIMA|大阪|MAGICAL SPEC/すべての瞬間は君だった。/いつかの夜に僕たちが、
+2026-11-10|499375|FaveZone in ヨドバシ梅田（2026/11/10）|ヨドバシ梅田 LINKS広場|大阪|WT☆Egret/meluQ/cleomery
+2026-11-10|499795|あむふぇすvol.10|梅田amHALL|大阪|AI♡RARA/#PANnana/シンセカイヒーロー/Fille mimi/ЯiM:MiR
+2026-11-10|498888|キューハチパーセント！定期公演Vol.4 -半年単独ライブ前SP対バン-|梅田BANGBOO|大阪|キューハチパーセント！/あおぞらをキミに/Merry Mellow/スイモアマイモン！/+Alpha
+2026-11-08|499029|tune time capsule pre. '' Before the Shine ''|梅田amHALL|大阪|tune time capsule/カラフルスクリーム
+2026-11-08|365405|#ﾆｷﾌﾟﾚ『オオサカッ!! -アニマ遊戯-』-ヒルノブ-|心斎橋ANIMA|大阪|alma/feelNEO/LUVRiX/Merry Mellow/いつかの夜に僕たちが、/クモリノチ。
+2026-11-08|365393|#ﾆｷﾌﾟﾚ『オオサカッ!! -アニマ遊戯-』-ヨルノブ-|心斎橋ANIMA|大阪|Axelight/feelNEO/.LiNⅨLiNE./神薙-時うさぎ-/クモリノチ。
+2026-11-08|499288|ひな生誕前対バン|梅田BANGBOO|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/脳内パステル/あおぞらをキミに
+2026-11-07|491277|#ﾆｷﾌﾟﾚ「オオサカッ!! -シキサイ。-」 2026.11.7|アメリカ村FANJ twice|大阪|HIBANA/.LiNⅨLiNE./カラフルスクリーム/脳内パステル
+2026-11-07|496590|I Dish Fes 2026|大阪城音楽堂|大阪|Appare!/UtaGe!/キューハチパーセント！/宇宙∞プラネクシア/わんみゅーず！/HKT48/ミライズ/-天架-tenka/SoRaLis/ワッツ◎さーくる/W.ダブルヴィー/Rain Tree/BNSI/AKANECLUB.
+2026-11-07|499285|絆（キズナ）presents 名阪交流戦mini Vol.4|心斎橋SHOVEL|大阪|すーぱーぷーばぁー!!/W.ダブルヴィー/あたまのなかは8ビット⁉︎
+2026-11-07|491276|ヒバメロ！ふりぃ！|アメリカ村FANJ twice|大阪|HIBANA/Merry Mellow
+2026-11-06|493869|YAOYOROZU FESTIVAL26 DAY1 こいこい神楽|久宝寺緑地陸上競技場|大阪|love=charmulet/ペトラナイトメア/リボンのないぷれぜんと/LΩPARA
+2026-11-06|499015|HABATAKE! IDOL!！ EXTRA(2026/11/6)|梅田amHALL|大阪|脳内パステル/宇宙∞プラネクシア/グットクルー/Merry Mellow/キューハチパーセント！/Fille mimi
+2026-11-06|411001|#ﾆｷﾌﾟﾚ「オオサカッ!! -ミツドモエ-」 2026.11.6|アメリカ村BEYOND|大阪|Axelight/.LiNⅨLiNE./いつかの夜に僕たちが、
+2026-11-05|484086|環状線メリーゴーランド2026 in OSAKA MUSE|OSAKA MUSE|大阪|Axelight/AZ-ON/Kolokol/鳴ル神/HIBANA/.LiNⅨLiNE.
+2026-11-05|498885|ワッツ◎さーくる 木曜定期公演vol.286 2部|梅田amHALL|大阪|W.ダブルヴィー/ワッツ◎さーくる
+2026-11-05|499033|もくもくアイドルNight(2026/11/5)|ヨドバシ梅田 1Fイベントスペース|大阪|脳内パステル/宇宙∞プラネクシア
+2026-11-04|498251|Sawage!pre.『ほんまに結婚したんか知らんけどFES.-SP-』|アメリカ村FANJ twice|大阪|めろでぃらびっと/MeluCharm/うぃるめり！/アクアリウム。/Lumi Prima/ハピネスクラッカー！
+2026-11-03|494035|煌めき☆アンフォレント2nd アジアツアー 大阪|PICCADILLY PREMIUM|大阪|煌めき☆アンフォレント/W.ダブルヴィー
+2026-11-03|498933|第17回明石肉フェスタ 推し活肉フェスタ|明石公園|兵庫|BABEL/KOBerrieS♪/シンセカイヒーロー/グットクルー/Serenade/MellBell/永遠のセツナ/&youth!/プリュネ♡トゥインクレット/スイモアマイモン！/bae<3
+2026-11-02|496349|みのあお誕生日ライブ~ずーっとみのあのみ♡~|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/あおぞらをキミに
+2026-11-01|497428|大阪大学 2026まちかね祭 スペシャルライブ|大阪大学 豊中キャンパス|大阪|tune time capsule/カラフルスクリーム
+2026-11-01|493418|第76回銀杏祭　COLLEGE FESTA COLLECTION 2026|大阪公立大学 杉本キャンパス|大阪|カラフルスクリーム/アイディライト/ひろいんあっぷでーと/MADOROMI-マドロミ-/マザリ
+2026-11-01|496594|PURE PLACE前祭！|阿倍野ROCKTOWN|大阪|JINKS/スキトオルアオ/PURE ME
+2026-09-30|494702|あかつきフェスmini vol.1|心斎橋ANIMA|大阪|すーぱーぷーばぁー!!/脳内パステル/anemoreel/すべての瞬間は君だった。/ワッツ◎さーくる
+2026-09-29|493499|NEW THINGS -FOUR BEAT-|アメリカ村BEYOND|大阪|W.ダブルヴィー/ぜろから☆すた→と/STARRY×NIGHT↗︎/サクヤコノハナ
+2026-09-29|493490|キュアリウムvol.14 〜ツーマン編〜|大阪RUIDO|大阪|キューハチパーセント！/Qu♡Aly
+2026-09-27|493342|みんがる〜mint8(はっち)周年SP!〜|なんばHatch|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/anemoreel/脳内パステル/すべての瞬間は君だった。/ヒロインズ研究生大阪/KRD8/ティラミス/すーぱーぷーばぁー!!/Qu♡Aly/SPRISE/グットクルー/あたまのなかは8ビット⁉︎/なないろ∞ミルキーウェイ/AI♡RARA/大阪24区ガールズ/感情線は時をこえて/天色のメロディー/逆転ねこぱんちっ！
+2026-09-27|493493|プラ祭mini(2026/9/27)|アメリカ村DROP|大阪|宇宙∞プラネクシア/alpha⁂Lux/SUGAR SPARK/tune time capsule/マシュマロドロップ
+2026-09-27|494093|DREAM IDOL in 梅田BANGBOO（2026/9/27）|梅田BANGBOO|大阪|tune time capsule/スイモアマイモン！/星もつもれば惑星となる！/MeluCharm/にゃあにゃあ/プラチナリボン/プリュネ♡トゥインクレット/da-gashi☆/Fille mimi/caprice/anemoreel/CLANCROWN/ハピネスクラッカー！/なにわぱれっと/AsteRythm/超★NOVA24’/BUGTTE！/matatabi/にぃよん！
+2026-09-27|466165|NUANCE 2026 TOUR -hike-「姫路編」|HOP THEATRE|兵庫|NUANCE/WT☆Egret
+2026-09-26|493394|#ATCポップカルチャー学園 #17|大阪南港ATC O's棟|大阪|カラフルスクリーム/イエスハッピー！/アイディライト/ひろいんあっぷでーと/Milky Flower
+2026-09-26|493341|みんがる（2026/9/26）|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/キューハチパーセント！/NEO BREAK/anemoreel/tune time capsule
+2026-09-26|494095|絆（キズナ）presents 名阪交流戦 mini vol.2|心斎橋SHOVEL|大阪|すーぱーぷーばぁー!!/AQA/天色のメロディー/anemoreel/Beloved
+2026-09-26|494059|Kawaii Night（2026/9/26）|心斎橋VARON|大阪|tune time capsule/ワッツ◎さーくる/あたまのなかは8ビット⁉︎/ティラミス/Qu♡Aly/ChanceMovement/NEO BREAK/Fille mimi/alpha⁂Lux/キラピュアップ/CLANCROWN/SUGAR SPARK/てんぽぷりも♪/Nody/HIGH SPY DOLL/ParaMilia/プリュネ♡トゥインクレット/ボクセカ/MeluCharm/LuvHz
+2026-09-24|491989|大阪無銭だねぃ (20260924)|心斎橋ANIMA|大阪|uijin/YOLOZ/Axelight
+2026-09-24|493383|Road to Castle × tune file vol.4|梅田バナナホール|大阪|すーぱーぷーばぁー!!/tune time capsule
+2026-09-23|493400|激アイラバ 5マン(2026/9/23)|心斎橋VARON|大阪|脳内パステル/あおぞらをキミに/ワッツ◎さーくる/alpha⁂Lux/Qu♡Aly
+2026-09-22|493103|.LiNIXlight - 光為線交 - FREELIVE|ヨドバシ梅田 LINKS広場|大阪|Axelight/.LiNⅨLiNE.
+2026-09-22|491509|GIRLS MUSIC SQUARE @江坂 （9/22）|ESAKA MUSE|大阪|ワンダーウィード天/花いろは/SPRISE/アブソプ/Qu♡Aly/NEO BREAK/イロハサクラ/あくまで天使
+2026-09-22|493349|はばたけ！アイドルフェス 秋の陣 Day2|大阪府内各所（サーキット）|大阪|おちゃメンタル☆パーティー/このアイドルはフィクションです。/大阪☆春夏秋冬/シンセカイヒーロー/スキトオルアオ/SAY-LA/POLARiS/anemoreel/アブソプ/大阪24区ガールズ/caprice/KAWAII LAB. MATES/キミの主人公/キューハチパーセント！/KRD8/SPRISE/DA・BAMBI/脳内パステル/HIGH SPY DOLL/蜂蜜★皇帝/プラチナリボン/WT☆Egret/Merry Mellow/meluQ
+2026-09-22|493492|アナフェス大阪mini vol.171　1部|梅田amHALL|大阪|キューハチパーセント！/リボンのないぷれぜんと/わんみゅーず！/SUGAR SPARK/なにわぱれっと/妄想ヒロイン/ChanceMovement/ParaMilia/てんぽぷりも♪/うぃるめり！/#BEMYLOVE/ボクセカ/おちゃメンタル☆パーティー/ワッツ◎さーくる
+2026-09-21|480001|でびぱっぱ夏祭2026 ～西の陣～ DAY 2|大阪城音楽堂|大阪|Devil ANTHEM./アンスリューム/INUWASI/UtaGe!/衛星とカラテア/キングサリ/こみっきゅおん！/Kolokol/THE ORCHESTRA TOKYO/ジエメイ/なみだ色の消しごむ/ハルニシオン/HIBANA/Mirror,Mirror
+2026-09-21|493347|はばたけ！アイドルフェス 秋の陣 Day1|大阪府内各所（サーキット）|大阪|宇宙∞プラネクシア/W.ダブルヴィー/すーぱーぷーばぁー!!/グットクルー/天女神樂/おちゃメンタル☆パーティー/感情線は時をこえて/カラフルスクリーム/Qu♡Aly/このアイドルはフィクションです。/大阪☆春夏秋冬/シンセカイヒーロー/スキトオルアオ/すべての瞬間は君だった。/SAY-LA/tune time capsule/NEO BREAK/#PANnana/ほくりくアイドル部/POLARiS/ラフティア/いつかの夜に僕たちが、/にぃよん！
+2026-09-21|493344|『W.ダブルヴィー×すべての瞬間は君だった。』ツーマンライブ|梅田LIVESPACE ODYSSEY|大阪|W.ダブルヴィー/すべての瞬間は君だった。
+2026-09-21|493335|あおハチ（2026/9/21）|OSAKA MUSE|大阪|キューハチパーセント！/あおぞらをキミに
+2026-09-21|493374|HABATAKE! IDOL!! Vol.28|梅田amHALL|大阪|グットクルー/meluQ/スキトオルアオ/anemoreel/このアイドルはフィクションです。/スイモアマイモン！/SAY-LA/Merry Mellow
+2026-09-21|493384|IDOL Seed（2026/9/21）|アメリカ村BEYOND|大阪|キューハチパーセント！/あおぞらをキミに/anemoreel/+Alpha/Qu♡Aly
+2026-09-20|480000|でびぱっぱ夏祭2026 ～西の陣～ DAY 1|大阪城音楽堂|大阪|Devil ANTHEM./アンスリューム/INUWASI/UtaGe!/衛星とカラテア/NMB48/Quubi/こみっきゅおん！/THE ORCHESTRA TOKYO/ジエメイ/Palette Parade/HIBANA/FES☆TIVE/Mirror,Mirror
+2026-09-20|490998|『MottoParty Osaka vol.2』|阿倍野ROCKTOWN|大阪|なみだ色の消しごむ/THE ENCORE/いつかの夜に僕たちが、
+2026-09-20|493354|Sweet Candy Music★（2026/9/20）|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/Qu♡Aly/スキトオルアオ/NEO BREAK/#PANnana/ワッツ◎さーくる/あおぞらをキミに/Fille mimi/アクアリウム。/キューハチパーセント！/キミだけの花言葉/AsteRythm/プリュネ♡トゥインクレット
+2026-09-20|493422|Lay-La（2026/9/20）|心斎橋SUNHALL|大阪|すーぱーぷーばぁー!!/白黒アリス/Charlotte/ParaMilia/POLARiS/meluQ/KAMuRO/PURE ME/めろでぃらびっと/アクアリウム。/ボクセカ/CRYZ/SUGAR SPARK/alpha⁂Lux/Qu♡Aly/CLANCROWN/ティラミス/HIGH SPY DOLL/#PANnana/#BEMYLOVE/+Alpha/LUVRiX/NEO BREAK/tune time capsule/あおぞらをキミに/Lyrical Pop Paradox/W.ダブルヴィー
+2026-09-20|492805|ヨドバシ梅田インストア(2026/9/20)|ヨドバシ梅田 1Fイベントスペース|大阪|宇宙∞プラネクシア/キューハチパーセント！
+2026-09-19|491448|Honey sweet carnival 20260919|心斎橋VARON|大阪|CLANCROWN/ミケネコガールズ/わんみゅーず！/にぃよん！/宇宙∞プラネクシア/イロハサクラ/プラチナリボン/リリシック学園/ボクセカ/あおぞらをキミに/ワッツ◎さーくる/Merry Mellow/da-gashi☆/ハピネスクラッカー！/#PANnana/BUGTTE！/星もつもれば惑星となる！/MeluCharm/+Alpha/anemoreel/青春シロップ/キューハチパーセント！/Fille mimi/にゃあにゃあ/Fleur*/超★NOVA24’
+2026-09-19|493387|AFTER DARK FEST（2026/9/19）|心斎橋SUNHALL|大阪|すーぱーぷーばぁー!!/白黒アリス/HIGH SPY DOLL/ココロシンドローム/ENVY PARANOID/デスキャンディ/ディノゾール/AIMIA/GLIM of GRAND/LΩPARA/Everglitch/超★NOVA24’/Fille mimi/Lyrical Pop Paradox
+2026-09-19|493355|LiveDarling SP. 〜最高の瞬間をGet!!〜|梅田amHALL|大阪|宇宙∞プラネクシア/すーぱーぷーばぁー!!/グットクルー/tune time capsule/ティラミス/anemoreel/Lumi Prima
+2026-09-19|493334|推し活すっきゃねんふぇす（2026/9/19）|梅田BANGBOO|大阪|キューハチパーセント！/あおぞらをキミに/ワッツ◎さーくる
+2026-09-18|491988|#ﾆｷﾌﾟﾚ「オオサカッ!! -20260918DROP編-」|アメリカ村DROP|大阪|Axelight/HATENO/.LiNⅨLiNE./meluQ/いつかの夜に僕たちが、
+2026-09-18|491309|堀江洸 生誕祭2026|大阪RUIDO|大阪|CLANCROWN/WT☆Egret
+2026-09-17|489472|すーぱーぷーばぁー!! 妃奈乃愛莉 生誕祭|OSAKA MUSE|大阪|すーぱーぷーばぁー!!/グットクルー/Qu♡Aly
+2026-09-17|486833|もくもくアイドルNight(2026/9/17)|ヨドバシ梅田 LINKS広場|大阪|AI♡RARA/W.ダブルヴィー
+2026-09-17|149738|#ﾆｷﾌﾟﾚ『オオサカｯ!! -20260917-』|大阪府内各所（サーキット）|大阪|AIWO/cleomery/ENVY PARANOID/HATENO/.LiNⅨLiNE./matatabi/meluQ/Merry Mellow/PURE ME/感情線は時をこえて/キューハチパーセント！/クモリノチ。/大阪☆春夏秋冬/宇宙∞プラネクシア/神薙-時うさぎ-
+2026-09-15|491990|ACEQUAD 1st TOUR -The Rising Ace- in OSAKA|アメリカ村BEYOND|大阪|ACEQUAD/Axelight/DIAVEL
+2026-09-15|494370|ヒバメロ！(2026/09/15)|アメリカ村FANJ twice|大阪|HIBANA/Merry Mellow
+2026-09-14|449660|月影祭 ～お礼参りは、月の下で～|心斎橋ANIMA|大阪|.LiNⅨLiNE./JINKS
+2026-09-14|493498|PURE PLACE|阿倍野ROCKTOWN|大阪|tune time capsule/すーぱーぷーばぁー!!/PURE ME/Merry Mellow
+2026-09-13|492676|SCLIVE(2026/09/13)|アメリカ村FANJ twice|大阪|Fille mimi/SKILL of light/アブソプ/アクアリウム。/めろでぃらびっと/Lollipop♡CHU/#PANnana/ワッツ◎さーくる/PULSAR_CLIMAX/Beloved/SANUGLOW/Lumi Prima/MeluCharm/ネテルダイヤ/シンセカイヒーロー/デスキャンディ/ココロシンドローム/うぃるめり！/リボンのないぷれぜんと/ハピネスクラッカー！/LOTUS MARRY/#ジューロック/Squall Line/GΛLNØA
+2026-09-13|493494|WONDER IDOL 2026Hatch Autumn|なんばHatch|大阪|tune time capsule/ワッツ◎さーくる/#PANnana/NaNiYoRi/アクアリウム。/#ジューロック/Lollipop♡CHU/めろでぃらびっと/#BEMYLOVE/ゼロキョリハーツ/リリシック学園/Beloved/Fille mimi/PULSAR_CLIMAX/SANUGLOW/Lumi Prima/大阪24区ガールズ/AsteRythm/caprice/プリュネ♡トゥインクレット/むげんこんぜ/シンセカイヒーロー/ひろいんあっぷでーと/アイディライト/プラチナリボン/MeluCharm/ChanceMovement/ParaMilia/+Alpha/ボクセカ/anemoreel/Qu♡Aly
+2026-09-13|492127|ゆいな卒業前対バン|ESAKA MUSE|大阪|宇宙∞プラネクシア/#PANnana/アクアリウム。
+2026-09-13|492675|KOBE DRIVE LIVE Vol.4（2026/9/13）|TOTTEI PARK|兵庫|グットクルー/大阪☆春夏秋冬/PURE ME/anemoreel/キューハチパーセント！/tune time capsule/スイモアマイモン！/あおぞらをキミに/+Alpha/ティラミス/Lumi Prima/BUGTTE！/Poifull
+2026-09-12|492062|【9/12】PinkySpice／おちゃメンタル☆パーティー ２MAN LIVE|CDCBOX|大阪|PinkySpice/おちゃメンタル☆パーティー
+2026-09-11|492453|Sweet Lemon（2026/9/11）|梅田BANGBOO|大阪|tune time capsule/スイモアマイモン！/POLARiS/ぷち♡きゅありー/Merry Mellow
+2026-09-10|486834|もくもくアイドルNight(2026/9/10)|ヨドバシ梅田 LINKS広場|大阪|あおぞらをキミに/キューハチパーセント！
+2026-09-09|492125|脳内∞プラネット（2026/9/9）|梅田amHALL|大阪|脳内パステル/宇宙∞プラネクシア
+2026-09-08|492042|絆（キズナ）presents "secret base"vol.3|梅田バナナホール|大阪|W.ダブルヴィー/anemoreel/tune time capsule/AI♡RARA/AQA/ヒロインズ研究生大阪
+2026-09-07|490426|MAGICAL SESSION in 大阪（2026/9/7）|心斎橋ANIMA|大阪|すーぱーぷーばぁー!!/MAGICAL SPEC/Axelight/いつかの夜に僕たちが、
+2026-09-07|490430|HABATAKE!! IDOL! EXTRA(2026/9/7)|梅田amHALL|大阪|tune time capsule/グットクルー/Qu♡Aly/BUGTTE！/あおぞらをキミに
+2026-09-06|488547|『OKP FES』 (2026/9/6)|なんばHatch|大阪|アキシブproject/AISTEAL/AVAM/amini/カリスマめんざいふっ！/CURE'T/きゅんﾀﾋに一生を⁉︎/GigiL/サクヤコノハナ/Sweet Alley/STARNOTE/Cent Heaven/DREAMING MONSTER/HIGH SPIRITS/VVSiS/Pretty Chuu/マイノリティアラート/±♡/MELYUME/4次元コンパス/LOTUS MARRY
+2026-09-06|489888|四神争覇|梅田BANGBOO|大阪|すーぱーぷーばぁー!!/anemoreel/グットクルー/脳内パステル/AI♡RARA
+2026-09-05|486104|ナナフェス2026|なんばHatch|大阪|unFinale Tokyo/いつかの夜に僕たちが、/OCHA NORMA/カラフルスクリーム/空想ロマンス/JamsCollection/すべての瞬間は君だった。/ナナコロビヤオキ/himawari(船橋)/びっくえんじぇる/Peel the Apple/ファーストプレイリスト/フューチャーサイダー/MAGICAL SPEC/Rain Tree/Onephony/フルコース/log you/わーすた
+2026-09-05|488552|GIRLS☆DELIGHT#413|PICCADILLY PREMIUM|大阪|アキシブproject/AISTEAL/大阪24区ガールズ/カリスマめんざいふっ！/きゅんﾀﾋに一生を⁉︎/GigiL/グットクルー/KRD8/サクヤコノハナ/Sweet Alley/すーぱーぷーばぁー!!/Cent Heaven/ティラミス/にゃあにゃあ/HIGH SPIRITS/VVSiS/#ぷれみーむ/POLARiS/マイノリティアラート/±♡/MELYUME/4次元コンパス/Lumi Prima/LOTUS MARRY
+2026-09-05|491645|アナフェス大阪mini vol.170　2部|梅田amHALL|大阪|W.ダブルヴィー/脳内パステル/あおぞらをキミに/anemoreel/キューハチパーセント！/ワッツ◎さーくる/にゃあにゃあ/+Alpha/アイディライト/tune time capsule/OGP研修生/Qu♡Aly/NEO BREAK/月とソーダ/ボクセカ/#PANnana/シンセカイヒーロー/COzMICぱれーど/てんぽぷりも♪
+2026-09-05|489458|のぞみ生誕前対バン|梅田BANGBOO|大阪|宇宙∞プラネクシア/W.ダブルヴィー/脳内パステル/あおぞらをキミに/anemoreel/キューハチパーセント！
+2026-09-04|491540|すべての瞬間は君だった。pre　瞬間diary（2026/9/4）|OSAKA MUSE|大阪|MAGICAL SPEC/すべての瞬間は君だった。/感情線は時をこえて/空想ロマンス/ファーストプレイリスト
+2026-09-03|491373|IDOL GATE in ESAKA MUSE（2026/9/3）|ESAKA MUSE|大阪|MAGICAL SPEC/すべての瞬間は君だった。/感情線は時をこえて/link start
+2026-09-03|486831|もくもくアイドルNight(2026/9/3)|ヨドバシ梅田 LINKS広場|大阪|脳内パステル/宇宙∞プラネクシア/AI♡RARA
+2026-08-31|490436|せーのではじまる！|梅田amHALL|大阪|グットクルー/BUGTTE！/星もつもれば惑星となる！/+Alpha/キューハチパーセント！/スイモアマイモン！
+2026-08-30|493496|HABATAKE!! IDOL! EXTRA（2026/8/30）【NIGHT】|ESAKA MUSE|大阪|tune time capsule/MeluCharm/ハピネスクラッカー！/キューハチパーセント！/スイモアマイモン！/Fille mimi/Merry Mellow/脳内パステル/AI♡RARA
+2026-08-29|493502|KOBE IDOLPORT(2026/8/29)NIGHT|神戸Harbor Studio|兵庫|グットクルー/スイモアマイモン！/Merry Mellow/スキトオルアオ
+2026-08-28|487843|OVERDRIVE vol.2|梅田バナナホール|大阪|脳内パステル/宇宙∞プラネクシア/W.ダブルヴィー/AI♡RARA/なないろ∞ミルキーウェイ/image/anemoreel/SPRISE
+2026-08-21|487133|プラ祭OSAKA〜うるトラFEVER SP!!〜|梅田バナナホール|大阪|Peel the Apple/ティラミス/テラテラ/Root mimi/ルージュブック/NEFRALISE/虜なるプレリュード/宵越しのアンサンブル/feelNEO/LINKL PLANET/すべての瞬間は君だった。/いつかの夜に僕たちが、/スキトオルアオ/SPRISE/Poifull/ボクセカ/ハピネスクラッカー！
+2026-08-18|489470|OVERDRIVE vol.1|梅田バナナホール|大阪|すーぱーぷーばぁー!!/ゼロキョリハーツ/すべての瞬間は君だった。/OS☆U/みありー/SPRISE/あたまのなかは8ビット⁉︎/ワッツ◎さーくる
+2026-08-16|489478|アナフェス大阪mini vol.168　2部|梅田amHALL|大阪|宇宙∞プラネクシア/W.ダブルヴィー/あおぞらをキミに/キューハチパーセント！/ワッツ◎さーくる/#PANnana/月とソーダ/ボクセカ/コドモシンカ/Qu♡Aly/NEO BREAK/アクアリウム。/スイモアマイモン！/ParaMilia/POLARiS/alpha⁂Lux
+2026-08-12|487846|みんがる（2026/8/12）|梅田amHALL|大阪|あおぞらをキミに/W.ダブルヴィー/tune time capsule/スイモアマイモン！
+2026-08-10|488881|Honey sweet carnival~summer sp~|梅田BANGBOO|大阪|宇宙∞プラネクシア/キューハチパーセント！/da-gashi☆/+Alpha/アクアリウム。/#BEMYLOVE/ハピネスクラッカー！/ChanceMovement/ParaMilia/プリュネ♡トゥインクレット/青春シロップ/にゃあにゃあ/TIPINKIT/AsteRythm/NaNiYoRi/matatabi/わんみゅーず！/うぃるめり！/スイモアマイモン！/Fleur*/Poifull/Morpho/超★NOVA24’/てんぽぷりも♪/CLANCROWN/ネテルダイヤ/ゼロキョリハーツ
+2026-08-06|482089|カラフルスクリーム りな生誕祭|梅田バナナホール|大阪|カラフルスクリーム/tune time capsule
+2026-07-25|485247|HIMEJI SOUND BOX Vol.93 DAY|姫路駅北にぎわい交流広場|兵庫|CLANCROWN/KRD8/WT☆Egret/BABEL/#PANnana/スイモアマイモン！
+2026-07-24|486528|ティラミスをキミに〜あおぞらの下で〜|梅田バナナホール|大阪|あおぞらをキミに/ティラミス
+2026-07-18|266959|MALLOW POP -Summer SP-|アメリカ村FANJ twice|大阪|Merry Mellow/感情線は時をこえて/グットクルー/meluQ/超★NOVA24’/わんみゅーず！/ハピネスクラッカー！/PURE ME/スイモアマイモン！/SoRaLis/+Alpha
+2026-07-16|483108|絆（キズナ）presents 名阪交流戦|梅田バナナホール|大阪|手羽先センセーション/カラフルスクリーム/W.ダブルヴィー/いつかの夜に僕たちが、/ティラミス/すべての瞬間は君だった。
