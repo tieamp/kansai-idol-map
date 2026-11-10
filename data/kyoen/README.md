@@ -15,8 +15,9 @@
    `https://www.eventernote.com/events/search?keyword=&year=2026&month=12&day=&area_id=&prefecture_id=27&limit=10&page=1`
    （prefecture_id: 大阪27 / 兵庫28 / 京都26。limit=10で全ページ。ページが長いと途中で切れるので10件ずつ）
 2. 新しい行を `events.txt` に追記する（同じIDは重複させない。開催予定だった月は出演者が増えていることがあるので取り直す）
-3. `python3 scripts/kyoen/build.py 出力先.html` で `kyoen.json` とページを生成する
-4. 生成したページを、公開中の共演マップに反映する
+3. `python3 scripts/kyoen/build.py kyoen.html` を実行する（`data/kyoen/kyoen.json` と、リポジトリ直下の共演マップのページ `kyoen.html` ができる）
+4. `events.txt` `kyoen.json` `kyoen.html` をコミットして main に入れる
+   （マップ本体の「よく共演するグループ」は `kyoen.json` を直接読むので、本体の `index.html` は変更不要）
 
 ## 収集済みの範囲（2026-11-10時点）
 
