@@ -110,7 +110,7 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
       <option value="asc">昇順（少ない・短い順）</option>
     </select>
   </div>
-  <p style="margin:0 0 14px"><a class="btn" id="submit" href="#">＋ グループを教える / 情報を更新する</a></p>
+  <p style="margin:0 0 14px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" id="submit" href="#">＋ グループを教える / 情報を更新する</a><a class="btn" id="kyoenlink" href="kyoen.html" style="background:var(--pop2);color:var(--text)">共演マップを見る</a></p>
 
   <div id="list"></div>
   <footer>
@@ -213,7 +213,7 @@ function render(){
     const rank = byArea ? n : i + 1;
     return head + `
     <div class="item${g.partners && g.partners.length ? " has" : ""}${openSet.has(g.x) ? " open" : ""}" data-x="${esc(g.x)}">
-      <div class="row1"><span class="rank">${rank}</span><span class="name">${esc(g.name)}</span>${g.partners && g.partners.length ? '<span class="tg">よく対バン</span>' : ""}</div>
+      <div class="row1"><span class="rank">${rank}</span><span class="name">${esc(g.name)}</span>${g.partners && g.partners.length ? '<span class="tg">よく共演</span>' : ""}</div>
       <div class="meta">${[g.area, g.formedYear ? g.formedYear + (solo ? "年〜活動" : "年結成") : ""].filter(Boolean).map(esc).join(" ・ ")}</div>
       ${g.agency ? `<div class="ag">事務所：<a href="#" data-ag="${esc(g.agency)}">${esc(g.agency)}</a></div>` : ""}
       <div class="bar"><i style="width:${Math.round(score(g)/max*100)}%"></i></div>
@@ -247,12 +247,28 @@ function partnersHtml(g){
       ? `<button type="button" class="chip go" data-go="${esc(h.x)}">${esc(h.name)}${cnt}</button>`
       : `<span class="chip">${esc(p.name)}${cnt}</span>`;
   }).join("");
-  return `<div class="detail"><h3>よく対バンするグループ</h3><div class="chips">${chips}</div>
-    <p class="note">Xで告知されたフライヤー等から集計（${esc(g.partnersAsOf || "調査時点")}）。黄色は掲載中のグループ（タップで移動）。</p></div>`;
+  return `<div class="detail"><h3>よく共演するグループ</h3><div class="chips">${chips}</div>
+    <p class="note">ライブの出演情報（イベンターノート等）から集計（${esc(g.partnersAsOf || "調査時点")}）。登録されていないライブは含みません。黄色は掲載中のグループ（タップで移動）。</p></div>`;
 }
 
-fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(d => {
+// ライブの出演情報（data/kyoen/kyoen.json）から、各グループの「よく共演するグループ」を作る。読み込めなくてもマップは動く
+function applyKyoen(k){
+  const A = k.acts, idx = new Map(A.map((a, i) => [a.n, i])), days = A.map(() => new Map());
+  k.events.forEach(e => { for (const a of e.a) for (const b of e.a) if (a !== b) {
+    let s = days[a].get(b); if (!s) days[a].set(b, s = new Set()); s.add(e.d); } });
+  const ds = k.events.map(e => e.d).sort();
+  const asOf = ds.length ? `${ds[0].slice(0,4)}年${+ds[0].slice(5,7)}〜${+ds[ds.length-1].slice(5,7)}月` : "";
+  groups.forEach(g => {
+    const i = idx.get(g.name); if (i == null) return;
+    const list = [...days[i]].filter(([, s]) => s.size >= 2)
+      .sort((x, y) => y[1].size - x[1].size || A[y[0]].d - A[x[0]].d).slice(0, 8)
+      .map(([b, s]) => ({name: A[b].n, x: A[b].x || null, count: s.size}));
+    if (list.length) { g.partners = list; g.partnersAsOf = asOf; }
+  });
+}
+fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(async d => {
   groups = d.groups || [];
+  try { applyKyoen(await fetch("data/kyoen/kyoen.json", {cache:"no-cache"}).then(r => r.json())); } catch (e) {}
   document.getElementById("updated").textContent = d.updatedAt || "-";
   document.getElementById("nGroup").textContent = groups.filter(g => typeOf(g) === "group").length;
   document.getElementById("nSolo").textContent = groups.filter(g => typeOf(g) === "solo").length;
