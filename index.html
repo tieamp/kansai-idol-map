@@ -102,7 +102,6 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
       <option value="score">影響力順（X+YouTube）</option>
       <option value="x">Xフォロワー順</option>
       <option value="yt">YouTube登録者順</option>
-      <option value="members" id="optMembers">メンバー数順</option>
       <option value="year">活動歴が長い順</option>
       <option value="area">都道府県順</option>
     </select>
@@ -153,13 +152,12 @@ const sorters = {
   score: (a,b) => score(b) - score(a),
   x: (a,b) => (b.xFollowers||0) - (a.xFollowers||0),
   yt: (a,b) => (b.ytSubscribers||0) - (a.ytSubscribers||0),
-  members: (a,b) => (b.members||0) - (a.members||0),
   year: (a,b) => (a.formedYear||9999) - (b.formedYear||9999)
 };
 
 const sortVal = {
   score: g => score(g), x: g => g.xFollowers, yt: g => g.ytSubscribers,
-  members: g => g.members, year: g => g.formedYear ? new Date().getFullYear() - g.formedYear : null
+  year: g => g.formedYear ? new Date().getFullYear() - g.formedYear : null
 };
 function sortList(list, sort, dir){
   if (dir !== "asc") return list.sort(sorters[sort]);
@@ -184,8 +182,6 @@ function render(){
   document.getElementById("sCount").textContent = fmt(inType.length);
   document.getElementById("sX").textContent = fmt(inType.reduce((s,g)=>s+(g.xFollowers||0),0));
   document.getElementById("sYT").textContent = fmt(inType.reduce((s,g)=>s+(g.ytSubscribers||0),0));
-  document.getElementById("optMembers").hidden = solo;
-  if (solo && sort === "members") { document.getElementById("sort").value = "score"; return render(); }
   const sel = document.getElementById("area");
   const areaList = [...new Set(inType.map(g => g.area).filter(Boolean))].sort((a,b) => areaIdx({area:a}) - areaIdx({area:b}));
   const cnt = a => inType.filter(g => g.area === a).length;
@@ -218,7 +214,7 @@ function render(){
     return head + `
     <div class="item${g.partners && g.partners.length ? " has" : ""}${openSet.has(g.x) ? " open" : ""}" data-x="${esc(g.x)}">
       <div class="row1"><span class="rank">${rank}</span><span class="name">${esc(g.name)}</span>${g.partners && g.partners.length ? '<span class="tg">よく対バン</span>' : ""}</div>
-      <div class="meta">${[g.area, !solo && g.members ? g.members + "人" : "", g.formedYear ? g.formedYear + (solo ? "年〜活動" : "年結成") : ""].filter(Boolean).map(esc).join(" ・ ")}</div>
+      <div class="meta">${[g.area, g.formedYear ? g.formedYear + (solo ? "年〜活動" : "年結成") : ""].filter(Boolean).map(esc).join(" ・ ")}</div>
       ${g.agency ? `<div class="ag">事務所：<a href="#" data-ag="${esc(g.agency)}">${esc(g.agency)}</a></div>` : ""}
       <div class="bar"><i style="width:${Math.round(score(g)/max*100)}%"></i></div>
       <div class="nums">
