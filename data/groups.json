@@ -1476,6 +1476,31 @@
       "xFollowers": 825,
       "ytSubscribers": null,
       "website": "https://lit.link/galnoa"
+    },
+    {
+      "type": "group",
+      "name": "永遠のセツナ",
+      "x": "eienno_setsuna",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2025,
+      "xFollowers": 1166,
+      "ytSubscribers": null,
+      "website": "https://lit.link/en/eiennosetsuna_colorfulpromotion",
+      "agency": "カラフルプロモーション"
+    },
+    {
+      "type": "group",
+      "name": "&youth!",
+      "x": "and_youth_",
+      "youtube": null,
+      "area": "大阪",
+      "members": 4,
+      "formedYear": 2025,
+      "xFollowers": 1107,
+      "ytSubscribers": null,
+      "agency": "カラフルプロモーション"
     }
   ]
 }
