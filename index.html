@@ -110,7 +110,7 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
       <option value="asc">昇順（少ない・短い順）</option>
     </select>
   </div>
-  <p style="margin:0 0 14px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" id="submit" href="#">＋ グループを教える / 情報を更新する</a><a class="btn" id="kyoenlink" href="kyoen.html" style="background:var(--pop2);color:var(--text)">共演マップを見る</a></p>
+  <p style="margin:0 0 14px"><a class="btn" id="submit" href="#">＋ グループを教える / 情報を更新する</a></p>
 
   <div id="list"></div>
   <footer>
@@ -212,7 +212,7 @@ function render(){
     prevArea = g.area; n++;
     const rank = byArea ? n : i + 1;
     return head + `
-    <div class="item${g.partners && g.partners.length ? " has" : ""}${openSet.has(g.x) ? " open" : ""}" data-x="${esc(g.x)}">
+    <div class="item${(g.partners && g.partners.length) || (g.similar && g.similar.length) ? " has" : ""}${openSet.has(g.x) ? " open" : ""}" data-x="${esc(g.x)}">
       <div class="row1"><span class="rank">${rank}</span><span class="name">${esc(g.name)}</span>${g.partners && g.partners.length ? '<span class="tg">よく共演</span>' : ""}</div>
       <div class="meta">${[g.area, g.formedYear ? g.formedYear + (solo ? "年〜活動" : "年結成") : ""].filter(Boolean).map(esc).join(" ・ ")}</div>
       ${g.agency ? `<div class="ag">事務所：<a href="#" data-ag="${esc(g.agency)}">${esc(g.agency)}</a></div>` : ""}
@@ -238,17 +238,22 @@ function topicHtml(g){
   return l.length ? `<div class="ach"><b>トピック</b><ul>${l.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>` : "";
 }
 function partnersHtml(g){
-  if (!g.partners || !g.partners.length) return "";
+  const hasP = g.partners && g.partners.length, hasS = g.similar && g.similar.length;
+  if (!hasP && !hasS) return "";
   const byX = new Map(groups.map(h => [h.x.toLowerCase(), h]));
-  const chips = [...g.partners].sort((a,b) => (b.count||0) - (a.count||0)).map(p => {
+  const chip = p => {
     const h = p.x && byX.get(p.x.toLowerCase());
     const cnt = p.count ? `<small>${p.count}回</small>` : "";
     return h
       ? `<button type="button" class="chip go" data-go="${esc(h.x)}">${esc(h.name)}${cnt}</button>`
       : `<span class="chip">${esc(p.name)}${cnt}</span>`;
-  }).join("");
-  return `<div class="detail"><h3>よく共演するグループ</h3><div class="chips">${chips}</div>
-    <p class="note">ライブの出演情報（イベンターノート等）から集計（${esc(g.partnersAsOf || "調査時点")}）。登録されていないライブは含みません。黄色は掲載中のグループ（タップで移動）。</p></div>`;
+  };
+  let html = '<div class="detail">';
+  if (hasP) html += `<h3>よく共演するグループ</h3><div class="chips">${[...g.partners].sort((a,b) => (b.count||0) - (a.count||0)).map(chip).join("")}</div>
+    <p class="note">ライブの出演情報（イベンターノート等）から集計（${esc(g.partnersAsOf || "調査時点")}）。登録されていないライブは含みません。黄色は掲載中のグループ（タップで移動）。</p>`;
+  if (hasS) html += `<h3 style="margin-top:12px">次に観てみたいグループ</h3><div class="chips">${g.similar.map(chip).join("")}</div>
+    <p class="note">同じライブにはまだ出ていませんが、共演しているグループの顔ぶれが近いグループです。</p>`;
+  return html + "</div>";
 }
 
 // ライブの出演情報（data/kyoen/kyoen.json）から、各グループの「よく共演するグループ」を作る。読み込めなくてもマップは動く
@@ -264,6 +269,15 @@ function applyKyoen(k){
       .sort((x, y) => y[1].size - x[1].size || A[y[0]].d - A[x[0]].d).slice(0, 8)
       .map(([b, s]) => ({name: A[b].n, x: A[b].x || null, count: s.size}));
     if (list.length) { g.partners = list; g.partnersAsOf = asOf; }
+    // まだ同じライブに出ていないが、共演しているグループの顔ぶれが近いグループ（登録グループのみ）
+    const va = new Map([...days[i]].map(([b, s]) => [b, s.size])); let na = 0; va.forEach(v => na += v * v);
+    const sim = [];
+    A.forEach((c, j) => { if (j === i || !c.r || c.d < 2 || days[i].has(j)) return;
+      let dot = 0, nc = 0, shared = 0;
+      days[j].forEach((s, b) => { nc += s.size * s.size; if (va.has(b)) { dot += s.size * va.get(b); shared++; } });
+      if (dot && shared >= 2) sim.push({name: c.n, x: c.x || null, sim: dot / Math.sqrt(na * nc)}); });
+    sim.sort((p, q) => q.sim - p.sim);
+    if (sim.length) g.similar = sim.slice(0, 6);
   });
 }
 fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(async d => {
