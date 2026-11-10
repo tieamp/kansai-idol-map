@@ -53,17 +53,6 @@ for (a, b), dd in pair.items():
 out = dict(updated=datetime.date.today().isoformat(), acts=acts, events=events)
 js = json.dumps(out, ensure_ascii=False, separators=(',', ':'))
 open(PT('data','kyoen','kyoen.json'), 'w', encoding='utf-8').write(js)
-# 引数に出力先を渡すとページ(HTML)も生成する: python3 scripts/kyoen/build.py out.html
-if len(sys.argv) > 1:
-    t = open(PT('scripts','kyoen','template.html'), encoding='utf-8').read()
-    page = t.replace('__DATA__', js.replace('</', '<\\/'))
-    # 単体ページにする（doctypeとhead、マップ本体へ戻るリンクを足す）
-    page = page.replace('<h1>関西アイドル共演マップ</h1>', '<a class="back" href="./">← 関西アイドルマップ</a>\n  <h1>関西アイドル共演マップ</h1>', 1)
-    page = page.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', '', 1)
-    page = page.replace('</style>', '.back{align-self:flex-start;font-size:13px;font-weight:700;color:var(--accent);text-decoration:none}\n[hidden]{display:none!important}\n</style>', 1)
-    page = '<!doctype html>\n<html lang="ja">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n' + page + '\n'
-    page = page.replace('</script>', '</script>\n</body>\n</html>', 1) if False else page
-    open(sys.argv[1], 'w', encoding='utf-8').write(page)
 r = [a for a in acts if a['r']]; u = [a for a in acts if not a['r']]
 print('events', len(events), 'acts', len(acts), 'registered matched', len(r), '/', len(reg))
 print('データなしの登録グループ:', [n for n in reg if n not in ids])
