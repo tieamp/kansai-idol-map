@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-11-13",
   "groups": [
     {
       "type": "group",
@@ -1517,6 +1517,30 @@
       "xFollowers": 1107,
       "ytSubscribers": null,
       "agency": "カラフルプロモーション"
+    },
+    {
+      "type": "group",
+      "name": "アイディライト",
+      "x": "_IdeaLight",
+      "youtube": null,
+      "area": "大阪",
+      "members": 8,
+      "formedYear": 2026,
+      "xFollowers": 10000,
+      "ytSubscribers": null,
+      "agency": "シンセカイプロモーション"
+    },
+    {
+      "type": "group",
+      "name": "ひろいんあっぷでーと",
+      "x": "HIROINE_UPDATE",
+      "youtube": null,
+      "area": "大阪",
+      "members": null,
+      "formedYear": 2025,
+      "xFollowers": 938,
+      "ytSubscribers": null,
+      "agency": "シンセカイプロモーション"
     }
   ]
 }
