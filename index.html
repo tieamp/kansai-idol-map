@@ -79,15 +79,10 @@ body{background-image:radial-gradient(circle at 10% 12%,rgba(255,217,61,.5) 0 80
 <body>
 <div class="wrap">
   <h1>関西アイドルマップ</h1>
-  <p class="lead">ファンの情報提供で作る、関西のアイドル一覧。Xの公式アカウントがあるグループ・ソロアイドルが対象です。</p>
+  <p class="lead">ファンの情報提供で作る、関西のアイドル一覧。Xの公式アカウントがあるグループが対象です。</p>
 
   <button id="copyurl" type="button" style="display:inline-block;margin:0 0 14px;padding:8px 16px;border-radius:999px;border:2px solid var(--line);background:var(--card);color:var(--text);font-weight:700;font-size:13px;cursor:pointer">🔗 このサイトのURLをコピー</button>
   <input id="urlbox" type="text" readonly style="display:block;width:100%;margin:-4px 0 14px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:13px" aria-label="サイトURL">
-
-  <div class="tabs" role="tablist">
-    <button class="tab on" data-type="group" role="tab">グループ部門<small id="nGroup">0</small></button>
-    <button class="tab" data-type="solo" role="tab">ソロ部門<small id="nSolo">0</small></button>
-  </div>
 
   <div class="stats">
     <div class="stat"><b id="sCount">0</b><span id="sCountLabel">登録グループ数</span></div>
@@ -284,8 +279,6 @@ fetch("data/groups.json", {cache:"no-cache"}).then(r => r.json()).then(async d =
   groups = d.groups || [];
   try { applyKyoen(await fetch("data/kyoen/kyoen.json", {cache:"no-cache"}).then(r => r.json())); } catch (e) {}
   document.getElementById("updated").textContent = d.updatedAt || "-";
-  document.getElementById("nGroup").textContent = groups.filter(g => typeOf(g) === "group").length;
-  document.getElementById("nSolo").textContent = groups.filter(g => typeOf(g) === "solo").length;
   const areas = [...new Set(groups.map(g => g.area).filter(Boolean))].sort((a,b) => areaIdx({area:a}) - areaIdx({area:b}));
   render();
 }).catch(() => { document.getElementById("list").innerHTML = '<div class="empty">データを読み込めませんでした</div>'; });
